@@ -1,0 +1,13 @@
+name: textanalysis
+title: textanalysis
+username:
+account: aleszu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 473016
+bundleId: 1609480
+url: https://aleszu.shinyapps.io/textanalysis/
+when: 1538063375.4899
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: headlines.json

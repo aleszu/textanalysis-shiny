@@ -1,0 +1,12 @@
+name: csvanalysis
+title: csvanalysis
+username:
+account: storybench
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 497943
+bundleId: 1627400
+url: https://storybench.shinyapps.io/csvanalysis/
+when: 1538878651.33937
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,12 @@
+name: textanalysis
+title: textanalysis
+username:
+account: storybench
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 478208
+bundleId: 1627409
+url: https://storybench.shinyapps.io/textanalysis/
+when: 1538879032.28797
+asMultiple: FALSE
+asStatic: FALSE
