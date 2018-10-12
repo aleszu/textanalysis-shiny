@@ -8,6 +8,8 @@ Google Sheet of 20,000+ [r/politics Reddit posts](https://docs.google.com/spread
 
 CSV of [Trump tweets through Nov. 2016](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumptweets-nov16.csv).
 
+CSV of women running in [House and Senate races 2018](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/women_running.csv)
+
 CSV of three months of [Heidi Heitkamp articles](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/Heitkamp-articles-3-months.csv).
 
 TXT of [Trump campaign speeches](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumpspeeches.txt).
