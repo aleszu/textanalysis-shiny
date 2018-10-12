@@ -14,6 +14,10 @@ CSV of three months of [Heidi Heitkamp articles](https://raw.githubusercontent.c
 
 TXT of [Trump campaign speeches](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumpspeeches.txt).
 
+TXT of [2018 Obama rally in Illinois](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/obama-rally-2018.txt).
+
+TXT of [Trump State of the Union speech](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trump_state_union_2018.txt)
+
 # Shiny app for inspecting TXT files
 
 [Click here](https://storybench.shinyapps.io/textanalysis/) for the TXT Shiny app.
