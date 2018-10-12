@@ -1,0 +1,525 @@
+state,statePostal,district,office,last,first,key,party,performanceInPrimary,primaryDate,runoff,incumbent,is_incumbent
+Alabama,AL,7,U.S. House,Sewell,Terri,sewellterri,Democratic,WIN,6/5/18,,Terri Sewell,TRUE
+Alabama,AL,2,U.S. House,Isner,Tabitha,isnertabitha,Democratic,WIN,6/5/18,,Martha Roby,FALSE
+Alabama,AL,3,U.S. House,Hagan,Mallory,haganmallory,Democratic,WIN,6/5/18,,Mike Rogers,FALSE
+Alabama,AL,1,U.S. House,McConnell,Lizzetta,mcconnelllizzetta,Democratic,LOSE,6/5/18,,Bradley Byrne,FALSE
+Alabama,AL,2,U.S. House,Williams,Audri Scott,williamsaudriscott,Democratic,LOSE,6/5/18,,Martha Roby,FALSE
+Alabama,AL,3,U.S. House,Winfrey,Adia,winfreyadia,Democratic,LOSE,6/5/18,,Mike Rogers,FALSE
+Alabama,AL,2,U.S. House,Roby,Martha,robymartha,Republican,WIN,7/17/18,RUNOFF,Martha Roby,TRUE
+Alaska,AK,1,U.S. House,Galvin,Alyse,galvinalyse,Democratic,WIN,8/21/18,,Don Young,FALSE
+Alaska,AK,1,U.S. House,Hafner,Carol,hafnercarol,Democratic,LOSE,8/21/18,,Don Young,FALSE
+Arizona,AZ,2,U.S. House,Kirkpatrick,Ann,kirkpatrickann,Democratic,WIN,8/28/18,,Open,FALSE
+Arizona,AZ,5,U.S. House,Greene,Joan,greenejoan,Democratic,WIN,8/28/18,,Andy Biggs,FALSE
+Arizona,AZ,6,U.S. House,Malik,Anita,malikanita,Democratic,WIN,8/28/18,,Schweikert,FALSE
+Arizona,AZ,8,U.S. House,Tipirneni,Hiral,tipirnenihiral,Democratic,WIN,8/28/18,,Debbie Lesko,FALSE
+Arizona,AZ,S,U.S. Senate,Sinema,Kyrsten,sinemakyrsten,Democratic,WIN,8/28/18,,Open,FALSE
+Arizona,AZ,2,U.S. House,Matiella,Mary,matiellamary,Democratic,LOSE,8/28/18,,Open,FALSE
+Arizona,AZ,2,U.S. House,Sherry,Barbara,sherrybarbara,Democratic,LOSE,8/28/18,,Open,FALSE
+Arizona,AZ,4,U.S. House,DiSanto,Delina,disantodelina,Democratic,LOSE,8/28/18,,Paul Gosar,FALSE
+Arizona,AZ,6,U.S. House,Ross,Heather,rossheather,Democratic,LOSE,8/28/18,,Schweikert,FALSE
+Arizona,AZ,7,U.S. House,Miranda,Catherine,mirandacatherine,Democratic,LOSE,8/28/18,,Ruben Gallego,FALSE
+Arizona,AZ,S,U.S. Senate,Abboud,Deedra,abbouddeedra,Democratic,LOSE,8/28/18,,Open,FALSE
+Arizona,AZ,8,U.S. House,Lesko,Debbie,leskodebbie,Republican,WIN,8/28/18,,Debbie Lesko,TRUE
+Arizona,AZ,1,U.S. House,Rogers,Wendy,rogerswendy,Republican,WIN,8/28/18,,O'Halleran,FALSE
+Arizona,AZ,2,U.S. House,Marquez Peterson,Lea,marquezpetersonlea,Republican,WIN,8/28/18,,Open,FALSE
+Arizona,AZ,S,U.S. Senate,McSally,Martha,mcsallymartha,Republican,WIN,8/28/18,,Open,FALSE
+Arizona,AZ,1,U.S. House,Shedd,Tiffany,sheddtiffany,Republican,LOSE,8/28/18,,O'Halleran,FALSE
+Arizona,AZ,3,U.S. House,San Miguel,Edna,sanmigueledna,Republican,LOSE,8/28/18,,RaÃºl Grijalva,FALSE
+Arizona,AZ,8,U.S. House,Dowling,Sandra,dowlingsandra,Republican,LOSE,8/28/18,,Debbie Lesko,FALSE
+Arizona,AZ,9,U.S. House,Baroness Von Behr,Irina,baronessvonbehririna,Republican,LOSE,8/28/18,,Open,FALSE
+Arizona,AZ,S,U.S. Senate,Ward,Kelli,wardkelli,Republican,LOSE,8/28/18,,Open,FALSE
+Arkansas,AR,4,U.S. House,Shamel,Hayden,shamelhayden,Democratic,WIN,5/22/18,,Bruce Westerman,FALSE
+Arkansas,AR,2,U.S. House,Combs,Gwen,combsgwen,Democratic,LOSE,5/22/18,,French Hill,FALSE
+California,CA,6,U.S. House,Matsui,Doris,matsuidoris,Democratic,WIN,6/5/18,,Doris Matsui,TRUE
+California,CA,12,U.S. House,Pelosi,Nancy,pelosinancy,Democratic,WIN,6/5/18,,Nancy Pelosi,TRUE
+California,CA,13,U.S. House,Lee,Barbara,leebarbara,Democratic,WIN,6/5/18,,Barbara Lee,TRUE
+California,CA,14,U.S. House,Speier,Jackie,speierjackie,Democratic,WIN,6/5/18,,Jackie Speier,TRUE
+California,CA,18,U.S. House,Eshoo,Anna,eshooanna,Democratic,WIN,6/5/18,,Anna Eshoo,TRUE
+California,CA,19,U.S. House,Lofgren,Zoe,lofgrenzoe,Democratic,WIN,6/5/18,,Zoe Lofgren,TRUE
+California,CA,26,U.S. House,Brownley,Julia,brownleyjulia,Democratic,WIN,6/5/18,,Julia Brownley,TRUE
+California,CA,27,U.S. House,Chu,Judy,chujudy,Democratic,WIN,6/5/18,,Judy Chu,TRUE
+California,CA,32,U.S. House,Napolitano,Grace,napolitanograce,Democratic,WIN,6/5/18,,Grace Napolitano,TRUE
+California,CA,35,U.S. House,Torres,Norma,torresnorma,Democratic,WIN,6/5/18,,Norma Torres,TRUE
+California,CA,37,U.S. House,Bass,Karen,basskaren,Democratic,WIN,6/5/18,,Karen Bass,TRUE
+California,CA,38,U.S. House,Sanchez,Linda,sanchezlinda,Democratic,WIN,6/5/18,,Linda SÃ¡nchez,TRUE
+California,CA,40,U.S. House,Roybal-Allard,Lucille,roybal-allardlucille,Democratic,WIN,6/5/18,,Lucille Roybal-Allard,TRUE
+California,CA,43,U.S. House,Waters,Maxine,watersmaxine,Democratic,WIN,6/5/18,,Maxine Waters,TRUE
+California,CA,44,U.S. House,Barragan,Nanette,barragannanette,Democratic,WIN,6/5/18,,Nanette Barragan,TRUE
+California,CA,53,U.S. House,Davis,Susan,davissusan,Democratic,WIN,6/5/18,,Susan Davis,TRUE
+California,CA,1,U.S. House,Denney,Audrey,denneyaudrey,Democratic,WIN,6/5/18,,Doug LaMalfa,FALSE
+California,CA,4,U.S. House,Morse,Jessica,morsejessica,Democratic,WIN,6/5/18,,McClintock,FALSE
+California,CA,23,U.S. House,Matta,Tatiana,mattatatiana,Democratic,WIN,6/5/18,,Kevin McCarthy,FALSE
+California,CA,25,U.S. House,Hill,Katie,hillkatie,Democratic,WIN,6/5/18,,Knight,FALSE
+California,CA,42,U.S. House,Peacock,Julia,peacockjulia,Democratic,WIN,6/5/18,,Ken Calvert,FALSE
+California,CA,44,U.S. House,Brown,Aja,brownaja,Democratic,WIN,6/5/18,,Nanette Barragan,FALSE
+California,CA,45,U.S. House,Porter,Katie,porterkatie,Democratic,WIN,6/5/18,,Walters,FALSE
+California,CA,S,U.S. Senate,Feinstein,Dianne,feinsteindianne,Democratic,WIN,6/5/18,,Dianne Feinstein,TRUE
+California,CA,1,U.S. House,Holcombe,Jessica,holcombejessica,Democratic,LOSE,6/5/18,,Doug LaMalfa,FALSE
+California,CA,1,U.S. House,Walters,Marty,waltersmarty,Democratic,LOSE,6/5/18,,Doug LaMalfa,FALSE
+California,CA,4,U.S. House,Bateson,Regina,batesonregina,Democratic,LOSE,6/5/18,,McClintock,FALSE
+California,CA,4,U.S. House,Calderon,Roza,calderonroza,Democratic,LOSE,6/5/18,,McClintock,FALSE
+California,CA,8,U.S. House,Doyle,Marjorie,doylemarjorie,Democratic,LOSE,6/5/18,,Paul Cook,FALSE
+California,CA,8,U.S. House,Ramirez,Rita,ramirezrita,Democratic,LOSE,6/5/18,,Paul Cook,FALSE
+California,CA,10,U.S. House,Madueno,Virginia,maduenovirginia,Democratic,LOSE,6/5/18,,Jeff Denham,FALSE
+California,CA,10,U.S. House,Nygard,Dotty,nygarddotty,Democratic,LOSE,6/5/18,,Jeff Denham,FALSE
+California,CA,10,U.S. House,Zwahlen,Sue,zwahlensue,Democratic,LOSE,6/5/18,,Jeff Denham,FALSE
+California,CA,23,U.S. House,Barro,Mary,barromary,Democratic,LOSE,6/5/18,,Kevin McCarthy,FALSE
+California,CA,23,U.S. House,Reed,Wendy,reedwendy,Democratic,LOSE,6/5/18,,Kevin McCarthy,FALSE
+California,CA,25,U.S. House,Pallant,Mary,pallantmary,Democratic,LOSE,6/5/18,,Knight,FALSE
+California,CA,25,U.S. House,Phoenix,Jess,phoenixjess,Democratic,LOSE,6/5/18,,Knight,FALSE
+California,CA,39,U.S. House,Leggett,Suzi,leggettsuzi,Democratic,LOSE,6/5/18,,Open,FALSE
+California,CA,39,U.S. House,Tran,Khanh,trankhanh,Democratic,LOSE,6/5/18,,Open,FALSE
+California,CA,48,U.S. House,Oatman,Laura,oatmanlaura,Democratic,LOSE,6/5/18,,Rohrabacher,FALSE
+California,CA,48,U.S. House,Payne,Rachel,paynerachel,Democratic,LOSE,6/5/18,,Rohrabacher,FALSE
+California,CA,48,U.S. House,Schaarsmith,Deanie,schaarsmithdeanie,Democratic,LOSE,6/5/18,,Rohrabacher,FALSE
+California,CA,49,U.S. House,Jacobs,Sara,jacobssara,Democratic,LOSE,6/5/18,,Open,FALSE
+California,CA,S,U.S. Senate,Edwards,Adrienne,edwardsadrienne,Democratic,LOSE,6/5/18,,Dianne Feinstein,FALSE
+California,CA,S,U.S. Senate,Hartson,Alison,hartsonalison,Democratic,LOSE,6/5/18,,Dianne Feinstein,FALSE
+California,CA,45,U.S. House,Walters,Mimi,waltersmimi,Republican,WIN,6/5/18,,Walters,TRUE
+California,CA,9,U.S. House,Livengood,Marla,livengoodmarla,Republican,WIN,6/5/18,,Jerry McNerney,FALSE
+California,CA,12,U.S. House,Remmer,Lisa,remmerlisa,Republican,WIN,6/5/18,,Nancy Pelosi,FALSE
+California,CA,14,U.S. House,Osmena,Cristina,osmenacristina,Republican,WIN,6/5/18,,Jackie Speier,FALSE
+California,CA,16,U.S. House,Heng,Elizabeth,hengelizabeth,Republican,WIN,6/5/18,,Jim Costa,FALSE
+California,CA,18,U.S. House,Russell,Christine,russellchristine,Republican,WIN,6/5/18,,Anna Eshoo,FALSE
+California,CA,36,U.S. House,Pelzer,Kimberlin,pelzerkimberlin,Republican,WIN,6/5/18,,Raul Ruiz,FALSE
+California,CA,39,U.S. House,Kim,Young,kimyoung,Republican,WIN,6/5/18,,Open,FALSE
+California,CA,41,U.S. House,Smith,Aja,smithaja,Republican,WIN,6/5/18,,Mark Takano,FALSE
+California,CA,49,U.S. House,Harkey,Diane,harkeydiane,Republican,WIN,6/5/18,,Open,FALSE
+California,CA,53,U.S. House,Murtaugh,Morgan,murtaughmorgan,Republican,WIN,6/5/18,,Susan Davis,FALSE
+California,CA,44,U.S. House,Dash,Stacey,dashstacey,Republican,LOSE,6/5/18,,Nanette Barragan,FALSE
+California,CA,44,U.S. House,Saavedra,Jazmina,saavedrajazmina,Republican,LOSE,6/5/18,,Nanette Barragan,FALSE
+California,CA,48,U.S. House,Sandman,Shastina,sandmanshastina,Republican,LOSE,6/5/18,,Rohrabacher,FALSE
+California,CA,49,U.S. House,Gaspar,Kristin,gasparkristin,Republican,LOSE,6/5/18,,Open,FALSE
+California,CA,S,U.S. Senate,Cruz,Erin,cruzerin,Republican,LOSE,6/5/18,,Dianne Feinstein,FALSE
+Colorado,CO,1,U.S. House,DeGette,Diana,degettediana,Democratic,WIN,6/26/18,,Diana DeGette,TRUE
+Colorado,CO,3,U.S. House,Mitsch Bush,Diane,mitschbushdiane,Democratic,WIN,6/26/18,,Tipton,FALSE
+Colorado,CO,4,U.S. House,McCormick,Karen,mccormickkaren,Democratic,WIN,6/26/18,,Open,FALSE
+Colorado,CO,5,U.S. House,Spaulding,Stephany,spauldingstephany,Democratic,WIN,6/26/18,,Doug Lamborn,FALSE
+Colorado,CO,1,U.S. House,Rao,Saira,raosaira,Democratic,LOSE,6/26/18,,Diana DeGette,FALSE
+Connecticut,CT,3,U.S. House,DeLauro,Rosa,delaurorosa,Democratic,WIN,8/14/18,,Rosa DeLauro,TRUE
+Connecticut,CT,5,U.S. House,Hayes,Jahana,hayesjahana,Democratic,WIN,8/14/18,,Open,FALSE
+Connecticut,CT,5,U.S. House,Glassman,Mary,glassmanmary,Democratic,LOSE,8/14/18,,Open,FALSE
+Connecticut,CT,1,U.S. House,Nye,Jennifer,nyejennifer,Republican,WIN,8/14/18,,John Larson,FALSE
+Connecticut,CT,5,U.S. House,Corby-O'Neill,Ruby,corby-o'neillruby,Republican,LOSE,8/14/18,,Open,FALSE
+Delaware,DE,1,U.S. House,Rochester,Lisa,rochesterlisa,Democratic,WIN,9/6/18,,Lisa Blunt Rochester,TRUE
+Delaware,DE,S,U.S. Senate,Harris,Kerri,harriskerri,Democratic,LOSE,9/6/18,,Thomas Carper,FALSE
+Florida,FL,7,U.S. House,Murphy,Stephanie,murphystephanie,Democratic,WIN,8/28/18,,Murphy,TRUE
+Florida,FL,10,U.S. House,Demings,Val,demingsval,Democratic,WIN,8/28/18,,Val Demings,TRUE
+Florida,FL,14,U.S. House,Castor,Kathy,castorkathy,Democratic,WIN,8/28/18,,Kathy Castor,TRUE
+Florida,FL,21,U.S. House,Frankel,Lois,frankellois,Democratic,WIN,8/28/18,,Lois Frankel,TRUE
+Florida,FL,23,U.S. House,Wasserman Schultz,Debbie,wassermanschultzdebbie,Democratic,WIN,8/28/18,,Debbie Wasserman Schultz,TRUE
+Florida,FL,24,U.S. House,Wilson,Frederica,wilsonfrederica,Democratic,WIN,8/28/18,,Frederica Wilson,TRUE
+Florida,FL,1,U.S. House,Zimmerman,Jennifer,zimmermanjennifer,Democratic,WIN,8/28/18,,Matt Gaetz,FALSE
+Florida,FL,3,U.S. House,Hayes Hinson,Yvonne,hayeshinsonyvonne,Democratic,WIN,8/28/18,,Ted Yoho,FALSE
+Florida,FL,6,U.S. House,Soderberg,Nancy,soderbergnancy,Democratic,WIN,8/28/18,,Open,FALSE
+Florida,FL,11,U.S. House,Cottrell,Dana,cottrelldana,Democratic,WIN,8/28/18,,Daniel Webster,FALSE
+Florida,FL,15,U.S. House,Carlson,Kristen,carlsonkristen,Democratic,WIN,8/28/18,,Open,FALSE
+Florida,FL,17,U.S. House,Freeman,April,freemanapril,Democratic,WIN,8/28/18,,Open,FALSE
+Florida,FL,18,U.S. House,Baer,Lauren,baerlauren,Democratic,WIN,8/28/18,,Mast,FALSE
+Florida,FL,25,U.S. House,Barzee Flores,Mary,barzeefloresmary,Democratic,WIN,8/28/18,,Diaz-Balart,FALSE
+Florida,FL,26,U.S. House,Mucarsel-Powell,Debbie,mucarsel-powelldebbie,Democratic,WIN,8/28/18,,Curbelo,FALSE
+Florida,FL,27,U.S. House,Shalala,Donna,shalaladonna,Democratic,WIN,8/28/18,,Open,FALSE
+Florida,FL,16,U.S. House,Schneider,Jan,schneiderjan,Democratic,LOSE,8/28/18,,Buchanan,FALSE
+Florida,FL,18,U.S. House,Keith,Pam,keithpam,Democratic,LOSE,8/28/18,,Mast,FALSE
+Florida,FL,20,U.S. House,Cherfilus-Mccormick,Sheila,cherfilus-mccormicksheila,Democratic,LOSE,8/28/18,,Alcee Hastings,FALSE
+Florida,FL,27,U.S. House,Gonzalez,Kristen,gonzalezkristen,Democratic,LOSE,8/28/18,,Open,FALSE
+Florida,FL,5,U.S. House,Fuller,Virginia,fullervirginia,Republican,WIN,8/28/18,,Al Lawson,FALSE
+Florida,FL,27,U.S. House,Salazar,Maria,salazarmaria,Republican,WIN,8/28/18,,Open,FALSE
+Florida,FL,7,U.S. House,Francois,Vennia,francoisvennia,Republican,LOSE,8/28/18,,Murphy,FALSE
+Florida,FL,23,U.S. House,Spalding,Carla,spaldingcarla,Republican,LOSE,8/28/18,,Debbie Wasserman Schultz,FALSE
+Florida,FL,26,U.S. House,Faas,Souraya,faassouraya,Republican,LOSE,8/28/18,,Curbelo,FALSE
+Florida,FL,27,U.S. House,Adadi,Elizabeth,adadielizabeth,Republican,LOSE,8/28/18,,Open,FALSE
+Florida,FL,27,U.S. House,Peiro,Maria,peiromaria,Republican,LOSE,8/28/18,,Open,FALSE
+Florida,FL,27,U.S. House,Chirino,Angie,chirinoangie,Republican,LOSE,8/28/18,,Open,FALSE
+Florida,FL,27,U.S. House,Rodriguez Aguilera,Bettina,rodriguezaguilerabettina,Republican,LOSE,8/28/18,,Open,FALSE
+Florida,FL,27,U.S. House,Sosa,Gina,sosagina,Republican,LOSE,8/28/18,,Open,FALSE
+Georgia,GA,1,U.S. House,Ring,Lisa,ringlisa,Democratic,WIN,5/22/18,,Buddy Carter,FALSE
+Georgia,GA,6,U.S. House,McBath,Lucy,mcbathlucy,Democratic,WIN,7/24/18,RUNOFF,Handel,FALSE
+Georgia,GA,7,U.S. House,Bourdeaux,Carolyn,bourdeauxcarolyn,Democratic,WIN,7/24/18,RUNOFF,Woodall,FALSE
+Georgia,GA,10,U.S. House,Johnson-Green,Tabitha,johnson-greentabitha,Democratic,WIN,5/22/18,,Jody Hice,FALSE
+Georgia,GA,1,U.S. House,Seidman,Barbara,seidmanbarbara,Democratic,LOSE,5/22/18,,Buddy Carter,FALSE
+Georgia,GA,7,U.S. House,Allen,Kathleen,allenkathleen,Democratic,LOSE,5/22/18,,Woodall,FALSE
+Georgia,GA,7,U.S. House,Davis,Melissa,davismelissa,Democratic,LOSE,5/22/18,,Woodall,FALSE
+Georgia,GA,6,U.S. House,Handel,Karen,handelkaren,Republican,WIN,5/22/18,,Handel,TRUE
+Hawaii,HI,2,U.S. House,Gabbard,Tulsi,gabbardtulsi,Democratic,WIN,8/11/18,,Tulsi Gabbard,TRUE
+Hawaii,HI,S,U.S. Senate,Hirono,Mazie,hironomazie,Democratic,WIN,8/11/18,,Mazie Hirono,TRUE
+Hawaii,HI,1,U.S. House,Fukumoto,Beth Keiko,fukumotobethkeiko,Democratic,LOSE,8/11/18,,Open,FALSE
+Hawaii,HI,1,U.S. House,Kim,Donna,kimdonna,Democratic,LOSE,8/11/18,,Open,FALSE
+Hawaii,HI,2,U.S. House,Alu Campagna,Sherry,alucampagnasherry,Democratic,LOSE,8/11/18,,Tulsi Gabbard,FALSE
+Hawaii,HI,S,U.S. Senate,Anderson,Consuelo,andersonconsuelo,Republican,LOSE,8/11/18,,Mazie Hirono,FALSE
+Idaho,ID,1,U.S. House,McNeil,Cristina,mcneilcristina,Democratic,WIN,5/15/18,,Open,FALSE
+Idaho,ID,1,U.S. House,Perry,Christy,perrychristy,Republican,LOSE,5/15/18,,Open,FALSE
+Illinois,IL,2,U.S. House,Kelly,Robin,kellyrobin,Democratic,WIN,3/20/18,,Robin Kelly,TRUE
+Illinois,IL,9,U.S. House,Schakowsky,Jan,schakowskyjan,Democratic,WIN,3/20/18,,Janice Schakowsky,TRUE
+Illinois,IL,17,U.S. House,Bustos,Cheri,bustoscheri,Democratic,WIN,3/20/18,,Cheri Bustos,TRUE
+Illinois,IL,13,U.S. House,Dirksen Londrigan,Betsy,dirksenlondriganbetsy,Democratic,WIN,3/20/18,,Davis,FALSE
+Illinois,IL,14,U.S. House,Underwood,Lauren,underwoodlauren,Democratic,WIN,3/20/18,,Hultgren,FALSE
+Illinois,IL,16,U.S. House,Dady,Sara,dadysara,Democratic,WIN,3/20/18,,Adam Kinzinger,FALSE
+Illinois,IL,3,U.S. House,Newman,Marie,newmanmarie,Democratic,LOSE,3/20/18,,Daniel Lipinski,FALSE
+Illinois,IL,4,U.S. House,Flores,Sol,floressol,Democratic,LOSE,3/20/18,,Open,FALSE
+Illinois,IL,5,U.S. House,Mustafa,Sameena,mustafasameena,Democratic,LOSE,3/20/18,,Mike Quigley,FALSE
+Illinois,IL,6,U.S. House,Anderson Wilkins,Becky,andersonwilkinsbecky,Democratic,LOSE,3/20/18,,Roskam,FALSE
+Illinois,IL,6,U.S. House,Cheney,Carole,cheneycarole,Democratic,LOSE,3/20/18,,Roskam,FALSE
+Illinois,IL,6,U.S. House,Howland,Amanda,howlandamanda,Democratic,LOSE,3/20/18,,Roskam,FALSE
+Illinois,IL,6,U.S. House,Mazeski,Kelly,mazeskikelly,Democratic,LOSE,3/20/18,,Roskam,FALSE
+Illinois,IL,6,U.S. House,Zordani,Jennifer,zordanijennifer,Democratic,LOSE,3/20/18,,Roskam,FALSE
+Illinois,IL,13,U.S. House,Sides,Angel,sidesangel,Democratic,LOSE,3/20/18,,Davis,FALSE
+Illinois,IL,16,U.S. House,Briel,Amy,brielamy,Democratic,LOSE,3/20/18,,Adam Kinzinger,FALSE
+Illinois,IL,16,U.S. House,Vercolio-Osmund,Beth,vercolio-osmundbeth,Democratic,LOSE,3/20/18,,Adam Kinzinger,FALSE
+Indiana,IN,3,U.S. House,Tritch,Courtney,tritchcourtney,Democratic,WIN,5/8/18,,Jim Banks,FALSE
+Indiana,IN,4,U.S. House,Beck,Tobi,becktobi,Democratic,WIN,5/8/18,,Open,FALSE
+Indiana,IN,5,U.S. House,Thornton,Dee,thorntondee,Democratic,WIN,5/8/18,,Susan Brooks,FALSE
+Indiana,IN,6,U.S. House,Lake,Jeannine,lakejeannine,Democratic,WIN,5/8/18,,Open,FALSE
+Indiana,IN,9,U.S. House,Watson,Liz,watsonliz,Democratic,WIN,5/8/18,,Trey Hollingsworth,FALSE
+Indiana,IN,2,U.S. House,Hackett,Pat,hackettpat,Democratic,LOSE,5/8/18,,Walorski,FALSE
+Indiana,IN,4,U.S. House,Ziol,Veronikka,ziolveronikka,Democratic,LOSE,5/8/18,,Open,FALSE
+Indiana,IN,7,U.S. House,Spicer,Sue,spicersue,Democratic,LOSE,5/8/18,,AndrÃ© Carson,FALSE
+Indiana,IN,2,U.S. House,Walorski,Jackie,walorskijackie,Republican,WIN,5/8/18,,Walorski,TRUE
+Indiana,IN,5,U.S. House,Brooks,Susan,brookssusan,Republican,WIN,5/8/18,,Susan Brooks,TRUE
+Indiana,IN,1,U.S. House,Ivanovich,Roseann,ivanovichroseann,Republican,LOSE,5/8/18,,Peter Visclosky,FALSE
+Indiana,IN,8,U.S. House,Covington,Rachel,covingtonrachel,Republican,LOSE,5/8/18,,Larry Bucshon,FALSE
+Iowa,IA,1,U.S. House,Finkenauer,Abby,finkenauerabby,Democratic,WIN,6/5/18,,Blum,FALSE
+Iowa,IA,3,U.S. House,Axne,Cindy,axnecindy,Democratic,WIN,6/5/18,,Young,FALSE
+Iowa,IA,1,U.S. House,Rowe,Courtney,rowecourtney,Democratic,LOSE,6/5/18,,Blum,FALSE
+Iowa,IA,4,U.S. House,Jacobsen,Leann,jacobsenleann,Democratic,LOSE,6/5/18,,Steve King,FALSE
+Iowa,IA,4,U.S. House,Hanson,Cyndi,hansoncyndi,Republican,LOSE,6/5/18,,Steve King,FALSE
+Kansas,KS,3,U.S. House,Davids,Sharice,davidssharice,Democratic,WIN,8/7/18,,Yoder,FALSE
+Kansas,KS,3,U.S. House,Williams,Sylvia,williamssylvia,Democratic,LOSE,8/7/18,,Yoder,FALSE
+Kansas,KS,4,U.S. House,Lombard,Laura,lombardlaura,Democratic,LOSE,8/7/18,,Ron Estes,FALSE
+Kansas,KS,2,U.S. House,Tyson,Caryn,tysoncaryn,Republican,LOSE,8/7/18,,Open,FALSE
+Kentucky,KY,6,U.S. House,McGrath,Amy,mcgrathamy,Democratic,WIN,5/22/18,,Barr,FALSE
+Kentucky,KY,2,U.S. House,Sessions,Rane,sessionsrane,Democratic,LOSE,5/22/18,,Brett Guthrie,FALSE
+Kentucky,KY,4,U.S. House,Lord,Christina,lordchristina,Democratic,LOSE,5/22/18,,Thomas Massie,FALSE
+Kentucky,KY,4,U.S. House,Piatt,Patti,piattpatti,Democratic,LOSE,5/22/18,,Thomas Massie,FALSE
+Kentucky,KY,3,U.S. House,Glisson,Vickie,glissonvickie,Republican,WIN,5/22/18,,John Yarmuth,FALSE
+Kentucky,KY,3,U.S. House,Palazzo,Rhonda,palazzorhonda,Republican,LOSE,5/22/18,,John Yarmuth,FALSE
+Louisiana,LA,1,U.S. House,Dugas,Lee Ann,dugasleeann,Democratic,AWAITING,11/6/18,,Steve Scalise,FALSE
+Louisiana,LA,1,U.S. House,Savoie,Tammy,savoietammy,Democratic,AWAITING,11/6/18,,Steve Scalise,FALSE
+Louisiana,LA,3,U.S. House,Methvin,Mimi,methvinmimi,Democratic,AWAITING,11/6/18,,Clay Higgins,FALSE
+Louisiana,LA,6,U.S. House,Saizan,Andie,saizanandie,Democratic,AWAITING,11/6/18,,Garret Graves,FALSE
+Maine,ME,1,U.S. House,Pingree,Chellie,pingreechellie,Democratic,WIN,6/12/18,,Chellie Pingree,TRUE
+Maryland,MD,1,U.S. House,Galbraith,Allison,galbraithallison,Democratic,LOSE,6/26/18,,Andy Harris,FALSE
+Maryland,MD,6,U.S. House,Hashimi,Nadia,hashiminadia,Democratic,LOSE,6/26/18,,Open,FALSE
+Maryland,MD,6,U.S. House,Miller,Aruna,milleraruna,Democratic,LOSE,6/26/18,,Open,FALSE
+Maryland,MD,8,U.S. House,Spring,Summer,springsummer,Democratic,LOSE,6/26/18,,Jamie Raskin,FALSE
+Maryland,MD,S,U.S. Senate,Manning,Chelsea,manningchelsea,Democratic,LOSE,6/26/18,,Benjamin Cardin,FALSE
+Maryland,MD,S,U.S. Senate,Morgan,Marcia,morganmarcia,Democratic,LOSE,6/26/18,,Benjamin Cardin,FALSE
+Maryland,MD,S,U.S. Senate,Wilson,Debbie,wilsondebbie,Democratic,LOSE,6/26/18,,Benjamin Cardin,FALSE
+Maryland,MD,S,U.S. Senate,Young,Lih,younglih,Democratic,LOSE,6/26/18,,Benjamin Cardin,FALSE
+Maryland,MD,2,U.S. House,Matory,Liz,matoryliz,Republican,WIN,6/26/18,,Dutch Ruppersberger,FALSE
+Maryland,MD,6,U.S. House,Hoeber,Amie,hoeberamie,Republican,WIN,6/26/18,,Open,FALSE
+Maryland,MD,6,U.S. House,Lloyd,Lisa,lloydlisa,Republican,LOSE,6/26/18,,Open,FALSE
+Maryland,MD,8,U.S. House,Cooper,Bridgette,cooperbridgette,Republican,LOSE,6/26/18,,Jamie Raskin,FALSE
+Maryland,MD,S,U.S. Senate,Grigorian,Christina,grigorianchristina,Republican,LOSE,6/26/18,,Benjamin Cardin,FALSE
+Massachusetts,MA,5,U.S. House,Clark,Katherine,clarkkatherine,Democratic,WIN,9/4/18,,Katherine Clark,TRUE
+Massachusetts,MA,7,U.S. House,Pressley,Ayanna,pressleyayanna,Democratic,WIN,9/4/18,,Michael Capuano,FALSE
+Massachusetts,MA,S,U.S. Senate,Warren,Elizabeth,warrenelizabeth,Democratic,WIN,9/4/18,,Elizabeth Warren,TRUE
+Massachusetts,MA,1,U.S. House,Amatul-Wadud,Tahirah,amatul-wadudtahirah,Democratic,LOSE,9/4/18,,Richard Neal,FALSE
+Massachusetts,MA,8,U.S. House,Wu,Brianna,wubrianna,Democratic,LOSE,9/4/18,,Stephen Lynch,FALSE
+Massachusetts,MA,3,U.S. House,Chandler,Alexandra,chandleralexandra,Democratic,AWAITING,9/4/18,,Open,FALSE
+Massachusetts,MA,3,U.S. House,L'Italien,Barbara,l'italienbarbara,Democratic,AWAITING,9/4/18,,Open,FALSE
+Massachusetts,MA,3,U.S. House,Malone,Bopha,malonebopha,Democratic,AWAITING,9/4/18,,Open,FALSE
+Massachusetts,MA,3,U.S. House,Matias,Juana,matiasjuana,Democratic,AWAITING,9/4/18,,Open,FALSE
+Massachusetts,MA,3,U.S. House,Trahan,Lori,trahanlori,Democratic,AWAITING,9/4/18,,Open,FALSE
+Massachusetts,MA,2,U.S. House,Lovvorn,Tracy,lovvorntracy,Republican,WIN,9/4/18,,James McGovern,FALSE
+Massachusetts,MA,S,U.S. Senate,Lindstrom,Beth,lindstrombeth,Republican,LOSE,9/4/18,,Elizabeth Warren,FALSE
+Michigan,MI,12,U.S. House,Dingell,Debbie,dingelldebbie,Democratic,WIN,8/7/18,,Debbie Dingell,TRUE
+Michigan,MI,14,U.S. House,Lawrence,Brenda,lawrencebrenda,Democratic,WIN,8/7/18,,Brenda Lawrence,TRUE
+Michigan,MI,3,U.S. House,Albro,Cathy,albrocathy,Democratic,WIN,8/7/18,,Justin Amash,FALSE
+Michigan,MI,7,U.S. House,Driskell,Gretchen,driskellgretchen,Democratic,WIN,8/7/18,,Walberg,FALSE
+Michigan,MI,8,U.S. House,Slotkin,Elissa,slotkinelissa,Democratic,WIN,8/7/18,,Bishop,FALSE
+Michigan,MI,10,U.S. House,Bizon,Kimberly,bizonkimberly,Democratic,WIN,8/7/18,,Paul Mitchell,FALSE
+Michigan,MI,11,U.S. House,Stevens,Haley,stevenshaley,Democratic,WIN,8/7/18,,Open,FALSE
+Michigan,MI,13,U.S. House,Tlaib,Rashida,tlaibrashida,Democratic,WIN,8/7/18,,Vacant,FALSE
+Michigan,MI,S,U.S. Senate,Stabenow,Debbie,stabenowdebbie,Democratic,WIN,8/7/18,,Debbie Stabenow,TRUE
+Michigan,MI,9,U.S. House,Lipton,Ellen,liptonellen,Democratic,LOSE,8/7/18,,Open,FALSE
+Michigan,MI,11,U.S. House,Saad,Fayrouz,saadfayrouz,Democratic,LOSE,8/7/18,,Open,FALSE
+Michigan,MI,11,U.S. House,Skinner,Nancy,skinnernancy,Democratic,LOSE,8/7/18,,Open,FALSE
+Michigan,MI,13,U.S. House,Jones,Brenda,jonesbrenda,Democratic,LOSE,8/7/18,,Vacant,FALSE
+Michigan,MI,13,U.S. House,Jackson,Shanelle,jacksonshanelle,Democratic,LOSE,8/7/18,,Vacant,FALSE
+Michigan,MI,9,U.S. House,Stearns,Candius,stearnscandius,Republican,WIN,8/7/18,,Open,FALSE
+Michigan,MI,11,U.S. House,Epstein,Lena,epsteinlena,Republican,WIN,8/7/18,,Open,FALSE
+Minnesota,MN,4,U.S. House,McCollum,Betty,mccollumbetty,Democratic,WIN,8/14/18,,Betty McCollum,TRUE
+Minnesota,MN,2,U.S. House,Craig,Angie,craigangie,Democratic,WIN,8/14/18,,Lewis,FALSE
+Minnesota,MN,5,U.S. House,Omar,Ilhan,omarilhan,Democratic,WIN,8/14/18,,Open,FALSE
+Minnesota,MN,S,U.S. Senate,Klobuchar,Amy,klobucharamy,Democratic,WIN,8/14/18,,Amy Klobuchar,TRUE
+Minnesota,MN,S,U.S. Senate,Smith,Tina,smithtina,Democratic,WIN,8/14/18,,Tina Smith,TRUE
+Minnesota,MN,5,U.S. House,Anderson Kelliher,Margaret,andersonkellihermargaret,Democratic,LOSE,8/14/18,,Open,FALSE
+Minnesota,MN,5,U.S. House,Torres Ray,Patricia,torresraypatricia,Democratic,LOSE,8/14/18,,Open,FALSE
+Minnesota,MN,8,U.S. House,Kennedy,Kirsten,kennedykirsten,Democratic,LOSE,8/14/18,,Open,FALSE
+Minnesota,MN,8,U.S. House,Lee,Michelle,leemichelle,Democratic,LOSE,8/14/18,,Open,FALSE
+Minnesota,MN,5,U.S. House,Zielinski,Jennifer,zielinskijennifer,Republican,WIN,8/14/18,,Open,FALSE
+Minnesota,MN,S,U.S. Senate,Housley,Karin,housleykarin,Republican,WIN,8/14/18,,Tina Smith,FALSE
+Minnesota,MN,1,U.S. House,Nelson,Carla,nelsoncarla,Republican,LOSE,8/14/18,,Open,FALSE
+Minnesota,MN,6,U.S. House,Kern,A.J.,kerna.j.,Republican,LOSE,8/14/18,,Tom Emmer,FALSE
+Minnesota,MN,S,U.S. Senate,Hart Anderson,Rae,hartandersonrae,Republican,LOSE,8/14/18,,Tina Smith,FALSE
+Mississippi,MS,S,U.S. Senate,Scott,Omeria,scottomeria,Democratic,LOSE,6/5/18,,Cindy Hyde-Smith,FALSE
+Mississippi,MS,3,U.S. House,Doty,Sally,dotysally,Republican,LOSE,6/5/18,,Open,FALSE
+Mississippi,MS,3,U.S. House,Dunn,Morgan,dunnmorgan,Republican,LOSE,6/5/18,,Open,FALSE
+Mississippi,MS,3,U.S. House,Tate,Katherine,tatekatherine,Republican,LOSE,6/5/18,,Open,FALSE
+Mississippi,MS,S,U.S. Senate,Hyde-Smith,Cindy,hyde-smithcindy,Republican,AWAITING,11/6/18,,Cindy Hyde-Smith,TRUE
+Missouri,MO,3,U.S. House,Geppert,Katy,geppertkaty,Democratic,WIN,8/7/18,,Blaine Luetkemeyer,FALSE
+Missouri,MO,4,U.S. House,Hoagenson,Renee,hoagensonrenee,Democratic,WIN,8/7/18,,Vicky Hartzler,FALSE
+Missouri,MO,8,U.S. House,Ellis,Kathy,elliskathy,Democratic,WIN,8/7/18,,Jason Smith,FALSE
+Missouri,MO,S,U.S. Senate,McCaskill,Claire,mccaskillclaire,Democratic,WIN,8/7/18,,Claire McCaskill,TRUE
+Missouri,MO,1,U.S. House,Bush,Cori,bushcori,Democratic,LOSE,8/7/18,,Lacy Clay,FALSE
+Missouri,MO,4,U.S. House,Thompson,Hallie,thompsonhallie,Democratic,LOSE,8/7/18,,Vicky Hartzler,FALSE
+Missouri,MO,S,U.S. Senate,Earl,Angelica,earlangelica,Democratic,LOSE,8/7/18,,Claire McCaskill,FALSE
+Missouri,MO,S,U.S. Senate,Wright,Carla,wrightcarla,Democratic,LOSE,8/7/18,,Claire McCaskill,FALSE
+Missouri,MO,2,U.S. House,Wagner,Ann,wagnerann,Republican,WIN,8/7/18,,Wagner,TRUE
+Missouri,MO,4,U.S. House,Hartzler,Vicky,hartzlervicky,Republican,WIN,8/7/18,,Vicky Hartzler,TRUE
+Missouri,MO,1,U.S. House,Lombardi-Olive,Camille,lombardi-olivecamille,Republican,LOSE,8/7/18,,Lacy Clay,FALSE
+Missouri,MO,2,U.S. House,Sachs,Noga,sachsnoga,Republican,LOSE,8/7/18,,Wagner,FALSE
+Missouri,MO,5,U.S. House,Oaks,Richonda,oaksrichonda,Republican,LOSE,8/7/18,,Emanuel Cleaver,FALSE
+Missouri,MO,S,U.S. Senate,Nichols,Kristi,nicholskristi,Republican,LOSE,8/7/18,,Claire McCaskill,FALSE
+Missouri,MO,S,U.S. Senate,Smith,Christina,smithchristina,Republican,LOSE,8/7/18,,Claire McCaskill,FALSE
+Montana,MT,1,U.S. House,Williams,Kathleen,williamskathleen,Democratic,WIN,6/5/18,,Gianforte,FALSE
+Montana,MT,1,U.S. House,Moss,Lynda,mosslynda,Democratic,LOSE,6/5/18,,Gianforte,FALSE
+Nebraska,NE,1,U.S. House,McClure,Jessica,mcclurejessica,Democratic,WIN,5/15/18,,Jeff Fortenberry,FALSE
+Nebraska,NE,2,U.S. House,Eastman,Kara,eastmankara,Democratic,WIN,5/15/18,,Bacon,FALSE
+Nebraska,NE,S,U.S. Senate,Raybould,Jane,raybouldjane,Democratic,WIN,5/15/18,,Deb Fischer,FALSE
+Nebraska,NE,S,U.S. Senate,Fischer,Deb,fischerdeb,Republican,WIN,5/15/18,,Deb Fischer,TRUE
+Nevada,NV,1,U.S. House,Titus,Dina,titusdina,Democratic,WIN,6/12/18,,Dina Titus,TRUE
+Nevada,NV,3,U.S. House,Lee,Susie,leesusie,Democratic,WIN,6/12/18,,Open,FALSE
+Nevada,NV,S,U.S. Senate,Rosen,Jacky,rosenjacky,Democratic,WIN,6/12/18,,Dean Heller,FALSE
+Nevada,NV,4,U.S. House,Spearman,Pat,spearmanpat,Democratic,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,4,U.S. House,Stephens,Allison,stephensallison,Democratic,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,4,U.S. House,Vilela,Amy,vilelaamy,Democratic,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,1,U.S. House,Bentley,Joyce,bentleyjoyce,Republican,WIN,6/12/18,,Dina Titus,FALSE
+Nevada,NV,2,U.S. House,Angle,Sharron,anglesharron,Republican,LOSE,6/12/18,,Mark Amodei,FALSE
+Nevada,NV,3,U.S. House,Jones,Stephanie,jonesstephanie,Republican,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,3,U.S. House,Mortensen,Michelle,mortensenmichelle,Republican,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,3,U.S. House,Teijeiro,Annette,teijeiroannette,Republican,LOSE,6/12/18,,Open,FALSE
+Nevada,NV,S,U.S. Senate,Brooks,Sherry,brookssherry,Republican,LOSE,6/12/18,,Dean Heller,FALSE
+Nevada,NV,S,U.S. Senate,Gazala,Sarah,gazalasarah,Republican,LOSE,6/12/18,,Dean Heller,FALSE
+New Hampshire,NH,2,U.S. House,Kuster,Ann,kusterann,Democratic,WIN,9/11/18,,Kuster,TRUE
+New Hampshire,NH,1,U.S. House,Andrews,Naomi,andrewsnaomi,Democratic,LOSE,9/11/18,,Open,FALSE
+New Hampshire,NH,1,U.S. House,Messmer,Mindi,messmermindi,Democratic,LOSE,9/11/18,,Open,FALSE
+New Hampshire,NH,1,U.S. House,Sullivan,Maura,sullivanmaura,Democratic,LOSE,9/11/18,,Open,FALSE
+New Hampshire,NH,2,U.S. House,Blankenbeker,Lynne,blankenbekerlynne,Republican,LOSE,9/11/18,,Kuster,FALSE
+New Jersey,NJ,12,U.S. House,Watson Coleman,Bonnie,watsoncolemanbonnie,Democratic,WIN,6/5/18,,Bonnie Watson Coleman,TRUE
+New Jersey,NJ,11,U.S. House,Sherrill,Mikie,sherrillmikie,Democratic,WIN,6/5/18,,Open,FALSE
+New Jersey,NJ,2,U.S. House,Youngblood,Tanzie,youngbloodtanzie,Democratic,LOSE,6/5/18,,Open,FALSE
+New Jersey,NJ,11,U.S. House,Harris,Tamara,harristamara,Democratic,LOSE,6/5/18,,Open,FALSE
+New Jersey,NJ,11,U.S. House,Heslin,Alison,heslinalison,Democratic,LOSE,6/5/18,,Open,FALSE
+New Jersey,NJ,7,U.S. House,Brown,Lindsay,brownlindsay,Republican,LOSE,6/5/18,,Lance,FALSE
+New Mexico,NM,1,U.S. House,Haaland,Debra,haalanddebra,Democratic,WIN,6/5/18,,Open,FALSE
+New Mexico,NM,2,U.S. House,Small,Xochitl Torres,smallxochitltorres,Democratic,WIN,6/5/18,,Open,FALSE
+New Mexico,NM,1,U.S. House,Lopez,Antoinette Sedillo,lopezantoinettesedillo,Democratic,LOSE,6/5/18,,Open,FALSE
+New Mexico,NM,2,U.S. House,Hildebrandt,Madeline,hildebrandtmadeline,Democratic,LOSE,6/5/18,,Open,FALSE
+New Mexico,NM,1,U.S. House,Arnold-Jones,Janice,arnold-jonesjanice,Republican,WIN,6/5/18,,Open,FALSE
+New Mexico,NM,2,U.S. House,Herrell,Yvette,herrellyvette,Republican,WIN,6/5/18,,Open,FALSE
+New York,NY,4,U.S. House,Rice,Kathleen,ricekathleen,Democratic,WIN,6/26/18,,Kathleen Rice,TRUE
+New York,NY,6,U.S. House,Meng,Grace,menggrace,Democratic,WIN,6/26/18,,Grace Meng,TRUE
+New York,NY,7,U.S. House,Velazquez,Nydia,velazqueznydia,Democratic,WIN,6/26/18,,Nydia VelÃ¡zquez,TRUE
+New York,NY,9,U.S. House,Clarke,Yvette,clarkeyvette,Democratic,WIN,6/26/18,,Yvette Clarke,TRUE
+New York,NY,12,U.S. House,Maloney,Carolyn,maloneycarolyn,Democratic,WIN,6/26/18,,Carolyn Maloney,TRUE
+New York,NY,17,U.S. House,Lowey,Nita,loweynita,Democratic,WIN,6/26/18,,Nita Lowey,TRUE
+New York,NY,2,U.S. House,Shirley,Liuba,shirleyliuba,Democratic,WIN,6/26/18,,Peter King,FALSE
+New York,NY,14,U.S. House,Ocasio-Cortez,Alexandria,ocasio-cortezalexandria,Democratic,WIN,6/26/18,,Open,FALSE
+New York,NY,21,U.S. House,Cobb,Tedra,cobbtedra,Democratic,WIN,6/26/18,,Elise Stefanik,FALSE
+New York,NY,23,U.S. House,Mitrano,Tracy,mitranotracy,Democratic,WIN,6/26/18,,Tom Reed,FALSE
+New York,NY,24,U.S. House,Balter,Dana,balterdana,Democratic,WIN,6/26/18,,Katko,FALSE
+New York,NY,S,U.S. Senate,Gillibrand,Kirsten,gillibrandkirsten,Democratic,WIN,6/26/18,,Kirsten Gillibrand,TRUE
+New York,NY,1,U.S. House,Browning,Kate,browningkate,Democratic,LOSE,6/26/18,,Zeldin,FALSE
+New York,NY,1,U.S. House,DiMasi,Elaine,dimasielaine,Democratic,LOSE,6/26/18,,Zeldin,FALSE
+New York,NY,1,U.S. House,Viloria-Fisher,Vivian,viloria-fishervivian,Democratic,LOSE,6/26/18,,Zeldin,FALSE
+New York,NY,16,U.S. House,Briscoe,Joyce,briscoejoyce,Democratic,LOSE,6/26/18,,Eliot Engel,FALSE
+New York,NY,19,U.S. House,Collier,Erin,colliererin,Democratic,LOSE,6/26/18,,Faso,FALSE
+New York,NY,21,U.S. House,Martz,Emily,martzemily,Democratic,LOSE,6/26/18,,Elise Stefanik,FALSE
+New York,NY,21,U.S. House,Wilson,Katie,wilsonkatie,Democratic,LOSE,6/26/18,,Elise Stefanik,FALSE
+New York,NY,23,U.S. House,Andrei,Linda,andreilinda,Democratic,LOSE,6/26/18,,Tom Reed,FALSE
+New York,NY,24,U.S. House,Perez Williams,Juanita,perezwilliamsjuanita,Democratic,LOSE,6/26/18,,Katko,FALSE
+New York,NY,25,U.S. House,Barnhart,Rachel,barnhartrachel,Democratic,LOSE,6/26/18,,Vacant,FALSE
+New York,NY,25,U.S. House,Wilt,Robin,wiltrobin,Democratic,LOSE,6/26/18,,Vacant,FALSE
+New York,NY,21,U.S. House,Stefanik,Elise,stefanikelise,Republican,WIN,6/26/18,,Elise Stefanik,TRUE
+New York,NY,22,U.S. House,Tenney,Claudia,tenneyclaudia,Republican,WIN,6/26/18,,Tenney,TRUE
+New York,NY,10,U.S. House,Levin,Naomi,levinnaomi,Republican,WIN,6/26/18,,Jerrold Nadler,FALSE
+New York,NY,13,U.S. House,Butler,Jineea,butlerjineea,Republican,WIN,6/26/18,,Adriano Espaillat,FALSE
+New York,NY,26,U.S. House,Zeno,Renee,zenorenee,Republican,WIN,6/26/18,,Brian Higgins,FALSE
+New York,NY,S,U.S. Senate,Farley,Chele,farleychele,Republican,WIN,6/26/18,,Kirsten Gillibrand,FALSE
+North Carolina,NC,12,U.S. House,Adams,Alma,adamsalma,Democratic,WIN,5/8/18,,Alma Adams,TRUE
+North Carolina,NC,2,U.S. House,Coleman,Linda,colemanlinda,Democratic,WIN,5/8/18,,Holding,FALSE
+North Carolina,NC,5,U.S. House,Adams,DD,adamsdd,Democratic,WIN,5/8/18,,Virginia Foxx,FALSE
+North Carolina,NC,7,U.S. House,Horton,Kyle,hortonkyle,Democratic,WIN,5/8/18,,David Rouzer,FALSE
+North Carolina,NC,13,U.S. House,Manning,Kathy,manningkathy,Democratic,WIN,5/8/18,,Budd,FALSE
+North Carolina,NC,2,U.S. House,May,Wendy,maywendy,Democratic,LOSE,5/8/18,,Holding,FALSE
+North Carolina,NC,4,U.S. House,Laws,Michelle,lawsmichelle,Democratic,LOSE,5/8/18,,David Price,FALSE
+North Carolina,NC,5,U.S. House,Marshall,Jenny,marshalljenny,Democratic,LOSE,5/8/18,,Virginia Foxx,FALSE
+North Carolina,NC,5,U.S. House,Foxx,Virginia,foxxvirginia,Republican,WIN,5/8/18,,Virginia Foxx,TRUE
+North Dakota,ND,S,U.S. Senate,Heitkamp,Heidi,heitkampheidi,Democratic,WIN,6/12/18,,Heidi Heitkamp,TRUE
+North Dakota,ND,1,U.S. House,Abentroth,Tiffany,abentrothtiffany,Republican,LOSE,6/12/18,,Open,FALSE
+Ohio,OH,3,U.S. House,Beatty,Joyce,beattyjoyce,Democratic,WIN,5/8/18,,Joyce Beatty,TRUE
+Ohio,OH,9,U.S. House,Kaptur,Marcy,kapturmarcy,Democratic,WIN,5/8/18,,Marcy Kaptur,TRUE
+Ohio,OH,11,U.S. House,Fudge,Marcia,fudgemarcia,Democratic,WIN,5/8/18,,Marcia Fudge,TRUE
+Ohio,OH,2,U.S. House,Schiller,Jill,schillerjill,Democratic,WIN,5/8/18,,Brad Wenstrup,FALSE
+Ohio,OH,4,U.S. House,Garrett,Janet,garrettjanet,Democratic,WIN,5/8/18,,Jim Jordan,FALSE
+Ohio,OH,6,U.S. House,Roberts,Shawna,robertsshawna,Democratic,WIN,5/8/18,,Bill Johnson,FALSE
+Ohio,OH,8,U.S. House,Enoch,Vanessa,enochvanessa,Democratic,WIN,5/8/18,,Warren Davidson,FALSE
+Ohio,OH,10,U.S. House,Gasper,Theresa,gaspertheresa,Democratic,WIN,5/8/18,,Turner,FALSE
+Ohio,OH,14,U.S. House,Rader,Betsy,raderbetsy,Democratic,WIN,5/8/18,,Joyce,FALSE
+Ohio,OH,16,U.S. House,Palmer,Susan Moran,palmersusanmoran,Democratic,WIN,5/8/18,,Open,FALSE
+Ohio,OH,2,U.S. House,Everhard,Janet,everhardjanet,Democratic,LOSE,5/8/18,,Brad Wenstrup,FALSE
+Ohio,OH,12,U.S. House,Patton,Jackie,pattonjackie,Democratic,LOSE,5/8/18,,Balderson,FALSE
+Ohio,OH,11,U.S. House,Goldstein,Beverly,goldsteinbeverly,Republican,WIN,5/8/18,,Marcia Fudge,FALSE
+Ohio,OH,12,U.S. House,Leneghan,Melanie,leneghanmelanie,Republican,LOSE,5/8/18,,Balderson,FALSE
+Ohio,OH,12,U.S. House,O'Brien,Carol,o'briencarol,Republican,LOSE,5/8/18,,Balderson,FALSE
+Ohio,OH,16,U.S. House,Hagan,Christina,haganchristina,Republican,LOSE,5/8/18,,Open,FALSE
+Ohio,OH,S,U.S. Senate,Ackison,Melissa,ackisonmelissa,Republican,LOSE,5/8/18,,Sherrod Brown,FALSE
+Oklahoma,OK,4,U.S. House,Brannon,Mary,brannonmary,Democratic,WIN,8/28/18,RUNOFF,Tom Cole,FALSE
+Oklahoma,OK,5,U.S. House,Horn,Kendra,hornkendra,Democratic,WIN,8/28/18,RUNOFF,Steve Russell,FALSE
+Oklahoma,OK,1,U.S. House,Douglas,Amanda,douglasamanda,Democratic,LOSE,8/28/18,RUNOFF,Open,FALSE
+Oklahoma,OK,1,U.S. House,Fields,Gwendolyn,fieldsgwendolyn,Democratic,LOSE,6/26/18,,Open,FALSE
+Oklahoma,OK,2,U.S. House,Jenner,Virginia,jennervirginia,Democratic,LOSE,6/26/18,,Markwayne Mullin,FALSE
+Oklahoma,OK,4,U.S. House,Klutts,Roxann,kluttsroxann,Democratic,LOSE,6/26/18,,Tom Cole,FALSE
+Oklahoma,OK,4,U.S. House,Varner,Mallory,varnermallory,Democratic,LOSE,6/26/18,,Tom Cole,FALSE
+Oklahoma,OK,5,U.S. House,Britt,Elysabeth,brittelysabeth,Democratic,LOSE,6/26/18,,Steve Russell,FALSE
+Oklahoma,OK,5,U.S. House,Kelley-Leonard,Leona,kelley-leonardleona,Democratic,LOSE,6/26/18,,Steve Russell,FALSE
+Oregon,OR,1,U.S. House,Bonamici,Suzanne,bonamicisuzanne,Democratic,WIN,5/15/18,,Suzanne Bonamici,TRUE
+Oregon,OR,2,U.S. House,McLeod-Skinner,Jamie,mcleod-skinnerjamie,Democratic,WIN,5/15/18,,Greg Walden,FALSE
+Oregon,OR,2,U.S. House,Mason,Raz,masonraz,Democratic,LOSE,5/15/18,,Greg Walden,FALSE
+Oregon,OR,2,U.S. House,Neahring,Jennifer,neahringjennifer,Democratic,LOSE,5/15/18,,Greg Walden,FALSE
+Oregon,OR,4,U.S. House,Perkins,Jo Rae,perkinsjorae,Republican,LOSE,5/15/18,,Peter DeFazio,FALSE
+Pennsylvania,PA,4,U.S. House,Dean,Madeleine,deanmadeleine,Democratic,WIN,5/15/18,,Open,FALSE
+Pennsylvania,PA,5,U.S. House,Scanlon,Mary,scanlonmary,Democratic,WIN,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,6,U.S. House,Houlahan,Chrissy,houlahanchrissy,Democratic,WIN,5/15/18,,Open,FALSE
+Pennsylvania,PA,7,U.S. House,Wild,Susan,wildsusan,Democratic,WIN,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,11,U.S. House,King,Jess,kingjess,Democratic,WIN,5/15/18,,Lloyd Smucker,FALSE
+Pennsylvania,PA,14,U.S. House,Boerio,Bibiana,boeriobibiana,Democratic,WIN,5/15/18,,Open,FALSE
+Pennsylvania,PA,15,U.S. House,Boser,Susan,bosersusan,Democratic,WIN,5/15/18,,Glenn Thompson,FALSE
+Pennsylvania,PA,1,U.S. House,Reddick,Rachel,reddickrachel,Democratic,LOSE,5/15/18,,Fitzpatrick,FALSE
+Pennsylvania,PA,2,U.S. House,Lawrence,Michele,lawrencemichele,Democratic,LOSE,5/15/18,,Brendan Boyle,FALSE
+Pennsylvania,PA,4,U.S. House,Goodman,Shira,goodmanshira,Democratic,LOSE,5/15/18,,Open,FALSE
+Pennsylvania,PA,5,U.S. House,Davidson,Margo,davidsonmargo,Democratic,LOSE,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,5,U.S. House,Li,Lindy,lilindy,Democratic,LOSE,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,5,U.S. House,Lunkenheimer,Ashley,lunkenheimerashley,Democratic,LOSE,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,5,U.S. House,Sheehan,Molly,sheehanmolly,Democratic,LOSE,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,7,U.S. House,Wright,Theresa,wrighttheresa,Democratic,LOSE,5/15/18,,Vacant,FALSE
+Pennsylvania,PA,9,U.S. House,Quick,Laura,quicklaura,Democratic,LOSE,5/15/18,,Open,FALSE
+Pennsylvania,PA,10,U.S. House,Corbin-Johnson,Shavonnia,corbin-johnsonshavonnia,Democratic,LOSE,5/15/18,,Perry,FALSE
+Pennsylvania,PA,12,U.S. House,Herschel,Judy,herscheljudy,Democratic,LOSE,5/15/18,,Tom Marino,FALSE
+Pennsylvania,PA,18,U.S. House,Brooks,Janis,brooksjanis,Democratic,LOSE,5/15/18,,Michael Doyle,FALSE
+Pennsylvania,PA,5,U.S. House,Kim,Pearl,kimpearl,Republican,WIN,5/15/18,,Vacant,FALSE
+Rhode Island,RI,S,U.S. Senate,Fontes,Patricia,fontespatricia,Democratic,LOSE,9/12/18,,Sheldon Whitehouse,FALSE
+South Carolina,SC,3,U.S. House,Geren,Mary,gerenmary,Democratic,WIN,6/12/18,,Jeff Duncan,FALSE
+South Carolina,SC,1,U.S. House,Smith,Toby,smithtoby,Democratic,LOSE,6/12/18,,Open,FALSE
+South Carolina,SC,2,U.S. House,Robertson,Annabelle,robertsonannabelle,Democratic,LOSE,6/26/18,RUNOFF,Joe Wilson,FALSE
+South Carolina,SC,4,U.S. House,Turner,Doris,turnerdoris,Democratic,LOSE,6/26/18,RUNOFF,Open,FALSE
+South Carolina,SC,1,U.S. House,Arrington,Katie,arringtonkatie,Republican,WIN,6/12/18,,Open,FALSE
+South Carolina,SC,4,U.S. House,Pierce,Shannon,pierceshannon,Republican,LOSE,6/12/18,,Open,FALSE
+South Dakota,SD,1,U.S. House,Krebs,Shantel,krebsshantel,Republican,LOSE,6/5/18,,Open,FALSE
+Tennessee,TN,2,U.S. House,Hoyos,Renee,hoyosrenee,Democratic,WIN,8/2/18,,Open,FALSE
+Tennessee,TN,3,U.S. House,Mitchell,Danielle,mitchelldanielle,Democratic,WIN,8/2/18,,Charles Fleischmann,FALSE
+Tennessee,TN,4,U.S. House,Phillips,Mariah,phillipsmariah,Democratic,WIN,8/2/18,,Scott DesJarlais,FALSE
+Tennessee,TN,6,U.S. House,Barlow,Dawn,barlowdawn,Democratic,WIN,8/2/18,,Open,FALSE
+Tennessee,TN,8,U.S. House,Pearson,Erika,pearsonerika,Democratic,WIN,8/2/18,,David Kustoff,FALSE
+Tennessee,TN,6,U.S. House,Wineinger,Merrilee,wineingermerrilee,Democratic,LOSE,8/2/18,,Open,FALSE
+Tennessee,TN,9,U.S. House,Smith,Kasandra,smithkasandra,Democratic,LOSE,8/2/18,,Steve Cohen,FALSE
+Tennessee,TN,9,U.S. House,Bergmann,Charlotte,bergmanncharlotte,Republican,WIN,8/2/18,,Steve Cohen,FALSE
+Tennessee,TN,S,U.S. Senate,Blackburn,Marsha,blackburnmarsha,Republican,WIN,8/2/18,,Open,FALSE
+Tennessee,TN,1,U.S. House,Banyas,Mickie Lou,banyasmickielou,Republican,LOSE,8/2/18,,David Roe,FALSE
+Tennessee,TN,2,U.S. House,Nickloes,Sarah,nickloessarah,Republican,LOSE,8/2/18,,Open,FALSE
+Tennessee,TN,6,U.S. House,Vivio,Lavern,viviolavern,Republican,LOSE,8/2/18,,Open,FALSE
+Tennessee,TN,8,U.S. House,Owens,Colleen,owenscolleen,Republican,LOSE,8/2/18,,David Kustoff,FALSE
+Texas,TX,18,U.S. House,Jackson Lee,Sheila,jacksonleesheila,Democratic,WIN,3/6/18,,Sheila Jackson Lee,TRUE
+Texas,TX,30,U.S. House,Johnson,Eddie Bernice,johnsoneddiebernice,Democratic,WIN,3/6/18,,Eddie Johnson,TRUE
+Texas,TX,1,U.S. House,McKellar,Shirley,mckellarshirley,Democratic,WIN,3/6/18,,Louie Gohmert,FALSE
+Texas,TX,3,U.S. House,Burch,Lorie,burchlorie,Democratic,WIN,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,4,U.S. House,Krantz,Catherine,krantzcatherine,Democratic,WIN,3/6/18,,John Ratcliffe,FALSE
+Texas,TX,6,U.S. House,Sanchez,Jana Lynne,sanchezjanalynne,Democratic,WIN,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,7,U.S. House,Fletcher,Lizzie,fletcherlizzie,Democratic,WIN,5/22/18,RUNOFF,Culberson,FALSE
+Texas,TX,11,U.S. House,Leeder,Jennie Lou,leederjennielou,Democratic,WIN,3/6/18,,Mike Conaway,FALSE
+Texas,TX,12,U.S. House,Adia,Vanessa,adiavanessa,Democratic,WIN,3/6/18,,Kay Granger,FALSE
+Texas,TX,14,U.S. House,Bell,Adrienne,belladrienne,Democratic,WIN,3/6/18,,Randy Weber,FALSE
+Texas,TX,16,U.S. House,Escobar,Veronica,escobarveronica,Democratic,WIN,3/6/18,,Open,FALSE
+Texas,TX,23,U.S. House,Jones,Gina,jonesgina,Democratic,WIN,5/22/18,RUNOFF,Hurd,FALSE
+Texas,TX,24,U.S. House,McDowell,Jan,mcdowelljan,Democratic,WIN,3/6/18,,Kenny Marchant,FALSE
+Texas,TX,25,U.S. House,Oliver,Julie,oliverjulie,Democratic,WIN,5/22/18,RUNOFF,Roger Williams,FALSE
+Texas,TX,26,U.S. House,Fagan,Linsey,faganlinsey,Democratic,WIN,3/6/18,,Michael Burgess,FALSE
+Texas,TX,29,U.S. House,Garcia,Sylvia,garciasylvia,Democratic,WIN,3/6/18,,Open,FALSE
+Texas,TX,31,U.S. House,Hegar,Mary,hegarmary,Democratic,WIN,5/22/18,RUNOFF,Carter,FALSE
+Texas,TX,36,U.S. House,Steele,Dayna,steeledayna,Democratic,WIN,3/6/18,,Brian Babin,FALSE
+Texas,TX,2,U.S. House,Malik,Silky,maliksilky,Democratic,LOSE,3/6/18,,Open,FALSE
+Texas,TX,6,U.S. House,Woolridge,Ruby Faye,woolridgerubyfaye,Democratic,LOSE,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,7,U.S. House,Moser,Laura,moserlaura,Democratic,LOSE,5/22/18,RUNOFF,Culberson,FALSE
+Texas,TX,10,U.S. House,Eden,Madeline,edenmadeline,Democratic,LOSE,3/6/18,,Michael McCaul,FALSE
+Texas,TX,10,U.S. House,Walker,Tami,walkertami,Democratic,LOSE,3/6/18,,Michael McCaul,FALSE
+Texas,TX,10,U.S. House,Walter-Cadien,Tawana,walter-cadientawana,Democratic,LOSE,5/22/18,RUNOFF,Michael McCaul,FALSE
+Texas,TX,16,U.S. House,Chavez,Norma,chaveznorma,Democratic,LOSE,3/6/18,,Open,FALSE
+Texas,TX,16,U.S. House,Fenenbock,Dori,fenenbockdori,Democratic,LOSE,3/6/18,,Open,FALSE
+Texas,TX,21,U.S. House,Wilson,Mary,wilsonmary,Democratic,LOSE,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,22,U.S. House,Johnson,Margarita,johnsonmargarita,Democratic,LOSE,3/6/18,,Pete Olson,FALSE
+Texas,TX,22,U.S. House,Plummer,Letitia,plummerletitia,Democratic,LOSE,5/22/18,RUNOFF,Pete Olson,FALSE
+Texas,TX,23,U.S. House,Canales,Judy,canalesjudy,Democratic,LOSE,3/6/18,,Hurd,FALSE
+Texas,TX,23,U.S. House,Villescaz,Angie,villescazangie,Democratic,LOSE,3/6/18,,Hurd,FALSE
+Texas,TX,25,U.S. House,Thomas,Kathi,thomaskathi,Democratic,LOSE,3/6/18,,Roger Williams,FALSE
+Texas,TX,27,U.S. House,Foster,Vanessa,fostervanessa,Democratic,LOSE,3/6/18,,Michael Cloud,FALSE
+Texas,TX,29,U.S. House,Garcia,Dominique,garciadominique,Democratic,LOSE,3/6/18,,Open,FALSE
+Texas,TX,30,U.S. House,Mallory Caraway,Barbara,mallorycarawaybarbara,Democratic,LOSE,3/6/18,,Eddie Johnson,FALSE
+Texas,TX,31,U.S. House,Mann,Christine,mannchristine,Democratic,LOSE,5/22/18,RUNOFF,Carter,FALSE
+Texas,TX,32,U.S. House,Salerno,Lillian,salernolillian,Democratic,LOSE,5/22/18,RUNOFF,Sessions,FALSE
+Texas,TX,S,U.S. Senate,Hernandez,Sema,hernandezsema,Democratic,LOSE,3/6/18,,Ted Cruz,FALSE
+Texas,TX,12,U.S. House,Granger,Kay,grangerkay,Republican,WIN,3/6/18,,Kay Granger,TRUE
+Texas,TX,18,U.S. House,Pate,Ava,pateava,Republican,WIN,3/6/18,,Sheila Jackson Lee,FALSE
+Texas,TX,2,U.S. House,Wall,Kathaleen,wallkathaleen,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,5,U.S. House,Pounds,Bunni,poundsbunni,Republican,LOSE,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,6,U.S. House,Gagliardi,Deborah,gagliardideborah,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,16,U.S. House,Garcia-Ureste,Alia,garcia-urestealia,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,21,U.S. House,Narvaiz,Susan,narvaizsusan,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,21,U.S. House,Sarver,Jenifer,sarverjenifer,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,21,U.S. House,Wardlaw,Peggy,wardlawpeggy,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,23,U.S. House,Arredondo-Lynch,Alma,arredondo-lynchalma,Republican,LOSE,3/6/18,,Hurd,FALSE
+Texas,TX,26,U.S. House,Birkenstock,Veronica,birkenstockveronica,Republican,LOSE,3/6/18,,Michael Burgess,FALSE
+Texas,TX,29,U.S. House,Blanco,Jaimy,blancojaimy,Republican,LOSE,3/6/18,,Open,FALSE
+Texas,TX,29,U.S. House,Montiel,Carmen,montielcarmen,Republican,LOSE,5/22/18,RUNOFF,Open,FALSE
+Texas,TX,S,U.S. Senate,Miller,Mary,millermary,Republican,LOSE,3/6/18,,Ted Cruz,FALSE
+Texas,TX,S,U.S. Senate,Sam,Geraldine,samgeraldine,Republican,LOSE,3/6/18,,Ted Cruz,FALSE
+Utah,UT,2,U.S. House,Ghorbani,Shireen,ghorbanishireen,Democratic,WIN,6/26/18,,Chris Stewart,FALSE
+Utah,UT,S,U.S. Senate,Wilson,Jenny,wilsonjenny,Democratic,WIN,6/26/18,,Open,FALSE
+Utah,UT,4,U.S. House,Love,Mia,lovemia,Republican,WIN,6/26/18,,Love,TRUE
+Vermont,VT,S,U.S. Senate,Adeluola,Folasade,adeluolafolasade,Democratic,LOSE,8/14/18,,Bernie Sanders,FALSE
+Vermont,VT,1,U.S. House,Tynio,Anya,tynioanya,Republican,LOSE,8/14/18,,Peter Welch,FALSE
+Virginia,VA,1,U.S. House,Williams,Vangie,williamsvangie,Democratic,WIN,6/12/18,,Robert Wittman,FALSE
+Virginia,VA,2,U.S. House,Luria,Elaine,luriaelaine,Democratic,WIN,6/12/18,,Taylor,FALSE
+Virginia,VA,5,U.S. House,Cockburn,Leslie,cockburnleslie,Democratic,WIN,5/5/18,,Open,FALSE
+Virginia,VA,6,U.S. House,Lewis,Jennifer,lewisjennifer,Democratic,WIN,6/12/18,,Open,FALSE
+Virginia,VA,7,U.S. House,Spanberger,Abigail,spanbergerabigail,Democratic,WIN,6/12/18,,Brat,FALSE
+Virginia,VA,10,U.S. House,Wexton,Jennifer,wextonjennifer,Democratic,WIN,6/12/18,,Comstock,FALSE
+Virginia,VA,2,U.S. House,Mallard,Karen,mallardkaren,Democratic,LOSE,6/12/18,,Taylor,FALSE
+Virginia,VA,6,U.S. House,Moore,Charlotte,moorecharlotte,Democratic,LOSE,6/12/18,,Open,FALSE
+Virginia,VA,10,U.S. House,Biggins,Julia,bigginsjulia,Democratic,LOSE,6/12/18,,Comstock,FALSE
+Virginia,VA,10,U.S. House,Friedman,Alison,friedmanalison,Democratic,LOSE,6/12/18,,Comstock,FALSE
+Virginia,VA,10,U.S. House,Stover,Lindsey,stoverlindsey,Democratic,LOSE,6/12/18,,Comstock,FALSE
+Virginia,VA,10,U.S. House,Comstock,Barbara,comstockbarbara,Republican,WIN,6/12/18,,Comstock,TRUE
+Virginia,VA,2,U.S. House,Jones,Mary,jonesmary,Republican,LOSE,6/12/18,,Taylor,FALSE
+Virginia,VA,4,U.S. House,Fenty,Shion,fentyshion,Republican,LOSE,6/12/18,,Donald McEachin,FALSE
+Virginia,VA,6,U.S. House,Dunbar,Cynthia,dunbarcynthia,Republican,LOSE,5/19/18,,Open,FALSE
+Virginia,VA,6,U.S. House,Lewis,Kathryn,lewiskathryn,Republican,LOSE,5/19/18,,Open,FALSE
+Washington,WA,1,U.S. House,DelBene,Suzan,delbenesuzan,Democratic,WIN,8/7/18,,Suzan DelBene,TRUE
+Washington,WA,7,U.S. House,Jayapal,Pramila,jayapalpramila,Democratic,WIN,8/7/18,,Pramila Jayapal,TRUE
+Washington,WA,9,U.S. House,Smith,Sarah,smithsarah,Democratic,WIN,8/7/18,,Adam Smith,TRUE
+Washington,WA,3,U.S. House,Long,Carolyn,longcarolyn,Democratic,WIN,8/7/18,,Herrera Beutler,FALSE
+Washington,WA,4,U.S. House,Brown,Christine,brownchristine,Democratic,WIN,8/7/18,,Dan Newhouse,FALSE
+Washington,WA,5,U.S. House,Brown,Lisa,brownlisa,Democratic,WIN,8/7/18,,McMorris Rodgers,FALSE
+Washington,WA,8,U.S. House,Schrier,Kim,schrierkim,Democratic,WIN,8/7/18,,Open,FALSE
+Washington,WA,S,U.S. Senate,Cantwell,Maria,cantwellmaria,Democratic,WIN,8/7/18,,Maria Cantwell,TRUE
+Washington,WA,3,U.S. House,Gasque,Dorothy,gasquedorothy,Democratic,LOSE,8/7/18,,Herrera Beutler,FALSE
+Washington,WA,8,U.S. House,Hader,Shannon,hadershannon,Democratic,LOSE,8/7/18,,Open,FALSE
+Washington,WA,3,U.S. House,Herrera Beutler,Jaime,herrerabeutlerjaime,Republican,WIN,8/7/18,,Herrera Beutler,TRUE
+Washington,WA,5,U.S. House,McMorris Rodgers,Cathy,mcmorrisrodgerscathy,Republican,WIN,8/7/18,,McMorris Rodgers,TRUE
+Washington,WA,S,U.S. Senate,Hutchison,Susan,hutchisonsusan,Republican,WIN,8/7/18,,Maria Cantwell,FALSE
+Washington,WA,S,U.S. Senate,Smith,RC,smithrc,Republican,LOSE,8/7/18,,Maria Cantwell,FALSE
+West Virginia,WV,1,U.S. House,Fershee,Kendra,fersheekendra,Democratic,WIN,5/8/18,,David McKinley,FALSE
+West Virginia,WV,2,U.S. House,Sergent,Talley,sergenttalley,Democratic,WIN,5/8/18,,Alex Mooney,FALSE
+West Virginia,WV,3,U.S. House,Hagerman,Janice,hagermanjanice,Democratic,LOSE,5/8/18,,Open,FALSE
+West Virginia,WV,S,U.S. Senate,Swearengin,Paula Jean,swearenginpaulajean,Democratic,LOSE,5/8/18,,Joe Manchin,FALSE
+West Virginia,WV,3,U.S. House,Miller,Carol,millercarol,Republican,WIN,5/8/18,,Open,FALSE
+West Virginia,WV,3,U.S. House,Amjad,Ayne,amjadayne,Republican,LOSE,5/8/18,,Open,FALSE
+Wisconsin,WI,4,U.S. House,Moore,Gwen,mooregwen,Democratic,WIN,8/14/18,,Gwen Moore,TRUE
+Wisconsin,WI,7,U.S. House,Engebretson,Margaret,engebretsonmargaret,Democratic,WIN,8/14/18,,Sean Duffy,FALSE
+Wisconsin,WI,S,U.S. Senate,Baldwin,Tammy,baldwintammy,Democratic,WIN,8/14/18,,Tammy Baldwin,TRUE
+Wisconsin,WI,1,U.S. House,Myers,Cathy,myerscathy,Democratic,LOSE,8/14/18,,Open,FALSE
+Wisconsin,WI,S,U.S. Senate,Vukmir,Leah,vukmirleah,Republican,WIN,8/14/18,,Tammy Baldwin,FALSE
+Wisconsin,WI,4,U.S. House,Werner,Cindy,wernercindy,Republican,LOSE,8/14/18,,Gwen Moore,FALSE
+Wisconsin,WI,5,U.S. House,Vipond,Jennifer,vipondjennifer,Republican,LOSE,8/14/18,,Jim Sensenbrenner,FALSE
+Wyoming,WY,1,U.S. House,Cheney,Liz,cheneyliz,Republican,WIN,8/21/18,,Liz Cheney,TRUE
