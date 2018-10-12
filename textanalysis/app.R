@@ -3,7 +3,6 @@ library(shinythemes)
 library(dplyr)
 library(tidyverse)
 library(tidytext)
-library(wordcloud)
 library(DT)
 
 ui <- fluidPage(
@@ -17,50 +16,51 @@ ui <- fluidPage(
      # Sidebar with a slider and selection inputs
  
       sidebarPanel(
-        
-    #  textAreaInput("text", "Enter text", rows = 7),
-      fileInput("file", "Upload your txt file"),
-      hr(),
-    #  selectInput("file2", "Or select a corpus", choices = c("New York Times headlines")),
-    #  hr(),
-      textInput("keyword", "Search for a keyword", "addiction"),
-      hr(),
-      tags$div(class="header", checked=NA,
-               tags$p("Once you've uploaded a document or selected a corpus, scroll down to see contextual sentences, a wordcloud of top terms, and sentiment analysis.")),
-      hr(),
- #    selectInput("keyword", "Choose a keyword", choices = c("addiction","drugs","opioid"))
- #     actionButton("update", "Update"),
- #     hr()
-      tags$div(class="header", checked=NA,
-          tags$p("A dataset you might be curious to explore."),
-          tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumpspeeches.txt", "Trump's campaign speeches.")),
-      tags$br(),
-       tags$div(class="header", checked=NA,
-                tags$p("Have a CSV file for sentiment analysis?"),
-                tags$a(href="https://storybench.shinyapps.io/csvanalysis/", "Try out my other drag-and-drop app.")),
-       hr(),
-       tags$div(class="header", checked=NA,
-                tags$p("This analysis uses the R package 'tidytext' and the 'labMT' sentiment dictionary from Andy Reagan. Created by Aleszu Bajak."))
-          
+        fileInput("file", "Upload your txt file"),
+        hr(),
+        textInput("keyword", "Search for a keyword", ""),
+        hr(),
+        tags$div(class="header", checked=NA,
+                 tags$p("Once you've uploaded a document, scroll down to see contextual sentences, sentiment analysis and top bi- and trigrams.")),
+        hr(),
+        textInput("neg", "Change negative color", "red"),
+        hr(),
+        textInput("pos", "Change positive color", "blue"),
+        hr(),
+        tags$div(class="header", checked=NA,
+            tags$p("A dataset you might be curious to explore."),
+            tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumpspeeches.txt", "Trump's campaign speeches.")),
+        tags$br(),
+         tags$div(class="header", checked=NA,
+                  tags$p("Have a CSV file for sentiment analysis?"),
+                  tags$a(href="https://storybench.shinyapps.io/csvanalysis/", "Try out my other drag-and-drop app.")),
+         hr(),
+         tags$div(class="header", checked=NA,
+                  tags$p("This analysis uses the R package 'tidytext' and the 'labMT' sentiment dictionary from Andy Reagan. Created by Aleszu Bajak."))
+            
     ),
 
     mainPanel(
-      h4("Sentences with your keyword", align = "center"),
-   #  tableOutput("tb"),
-      DTOutput('tb'),
-      h4("Sentiment of words appearing with your keyword", align = "center"),
+      
+      h4("Sentences", align = "center"),
+      DTOutput("tb"),
+      h4("Most negative and most positive words", align = "center"),
       plotOutput("p_sentT"),
-      h4("Top words appearing in the context of your keyword", align = "center"),
-      plotOutput("wordcloudT") #,
-#      h4("Top bigrams appearing with your keyword", align = "center"),
-#      plotOutput("bigramsT"),
-#      h4("Top trigrams appearing with your keyword", align = "center"),
-#      plotOutput("trigramsT")
+      h4("Top 50 positive words", align = "center"),
+      DTOutput("tbpos"),
+      h4("Top 50 negative words", align = "center"),
+      DTOutput("tbneg"),
+      h4("Top bigrams", align = "center"),
+      DTOutput("bigramsT"),
+      h4("Top bigrams", align = "center"),
+      plotOutput("biplot"),
+      h4("Top trigrams", align = "center"),
+      DTOutput("trigramsT"),
+      h4("Top trigrams", align = "center"),
+      plotOutput("triplot")
     )
   )
 )
-
-
 
 
 server <- function(input, output, session) {
@@ -81,9 +81,66 @@ server <- function(input, output, session) {
     df <- filedata() 
     df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
     DT::datatable(df2)
+    
   })
 
-  output$wordcloudT <- renderPlot({
+  output$tbpos <- DT::renderDataTable({
+
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+
+    LookForKeyword <- c(input$keyword)
+
+    df <- filedata()
+    df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
+    
+    # tokenizedT <- df2 %>%
+    #   select(value) %>%
+    #   unnest_tokens(word, value) %>%
+    #   count(word, sort = TRUE) %>%
+    #   ungroup()
+    # tokenizedT
+    # 
+    # tokenized_rem_stopwordsT <- tokenizedT %>%
+    #   anti_join(stop_words)
+    
+    sentiments <- read.csv("https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/labMT2english.csv", sep="\t")
+    labMT <- sentiments %>%
+      select(word, happs)
+    
+    ### Quick sentiment analysis
+    
+    allsentimentT <- df2 %>%  
+      select(value) %>%
+      unnest_tokens(word, value) %>%
+      anti_join(stop_words) %>%
+      inner_join(labMT, by = "word") %>%
+      group_by(word) %>%
+      summarize(sentiment = mean(happs)) %>%
+      arrange(desc(sentiment)) %>%
+      mutate("sentiment2" = sentiment-5.372 )
+    
+    # Bind 10 most positive terms and 10 most negative terms
+    
+    topsent <- allsentimentT %>%
+      top_n(50) 
+
+    DT::datatable(topsent)
+    
+    # wcT <- wordcloud(words = tokenized_rem_stopwordsT$word, freq = tokenized_rem_stopwordsT$n, min.freq = 1,
+    #                  max.words=100, random.order=FALSE, rot.per=0.15,
+    #                  colors=brewer.pal(8, "RdGy"))
+    # wcT
+
+  })
+  
+  
+  output$tbneg <- DT::renderDataTable({
     
     if (is.null(input$file)){
       return(NULL)      
@@ -92,29 +149,46 @@ server <- function(input, output, session) {
     library(dplyr)
     library(tidyverse)
     library(tidytext)
-    library(wordcloud)
     
     LookForKeyword <- c(input$keyword)
     
     df <- filedata()
     df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
-    tokenizedT <- df2 %>%
+    
+    # tokenizedT <- df2 %>%
+    #   select(value) %>%
+    #   unnest_tokens(word, value) %>%
+    #   count(word, sort = TRUE) %>%
+    #   ungroup()
+    # tokenizedT
+    # 
+    # tokenized_rem_stopwordsT <- tokenizedT %>%
+    #   anti_join(stop_words)
+    
+    sentiments <- read.csv("https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/labMT2english.csv", sep="\t")
+    labMT <- sentiments %>%
+      select(word, happs)
+    
+    ### Quick sentiment analysis
+    
+    allsentimentT <- df2 %>%  
       select(value) %>%
       unnest_tokens(word, value) %>%
-      count(word, sort = TRUE) %>%
-      ungroup()
-    tokenizedT
+      anti_join(stop_words) %>%
+      inner_join(labMT, by = "word") %>%
+      group_by(word) %>%
+      summarize(sentiment = mean(happs)) %>%
+      arrange(desc(sentiment)) %>%
+      mutate("sentiment2" = sentiment-5.372 )
     
-    tokenized_rem_stopwordsT <- tokenizedT %>%
-      anti_join(stop_words)
-    tokenized_rem_stopwordsT
+    bottomsent <- head(arrange(allsentimentT,sentiment2), n = 50) 
     
-    wcT <- wordcloud(words = tokenized_rem_stopwordsT$word, freq = tokenized_rem_stopwordsT$n, min.freq = 1,
-                     max.words=100, random.order=FALSE, rot.per=0.15, 
-                     colors=brewer.pal(8, "RdGy"))
-    wcT
+    DT::datatable(bottomsent)
+    
     
   })
+  
+  
   
   output$p_sentT <- renderPlot({
     
@@ -146,7 +220,6 @@ server <- function(input, output, session) {
       summarize(sentiment = mean(happs)) %>%
       arrange(desc(sentiment)) %>%
       mutate("sentiment2" = sentiment-5.372 )
-    allsentimentT
     
     # Bind 10 most positive terms and 10 most negative terms
     
@@ -166,15 +239,135 @@ server <- function(input, output, session) {
       coord_flip() +
       ylab("sentiment") +
       xlab("word") + 
-      scale_y_continuous(limits=c(-4, 4)) +
-      scale_fill_manual(values=c("red", "blue"))
+      scale_y_continuous(limits=c(-5, 5)) +
+      scale_fill_manual(values=c(input$neg,input$pos))
     
     p_sentT
     
   })
   
+  output$bigramsT <- DT::renderDataTable({
+    
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+    library(wordcloud)
+    
+    LookForKeyword <- c(input$keyword)
+    
+    df <- filedata()
+    df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
+    
+    bigrams <- df2 %>%
+      select(value) %>%
+      unnest_tokens(ngram, value, token = "ngrams", n = 2) %>%
+      count(ngram, sort = TRUE) %>%
+      ungroup()
+
+    DT::datatable(bigrams)
+  
+ })
+  
+  output$biplot <- renderPlot({
+    
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+    library(wordcloud)
+    
+    LookForKeyword <- c(input$keyword)
+    
+    df <- filedata()
+    df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
+    
+    bigrams_15 <- df2 %>%
+      select(value) %>%
+      unnest_tokens(ngram, value, token = "ngrams", n = 2) %>%
+      count(ngram, sort = TRUE) %>%
+      ungroup() %>%
+      top_n(25)
+    
+    p7 <- ggplot(bigrams_15, aes(x=reorder(ngram, -n), y=n)) +
+      geom_col(show.legend = FALSE) +
+      coord_flip() +
+      ylab("frequency") +
+      xlab("ngram")
+    
+    p7
+    
+  })
+  
+  # trigramsT
+  
+  output$trigramsT <- DT::renderDataTable({
+    
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+    library(wordcloud)
+    
+    LookForKeyword <- c(input$keyword)
+    
+    df <- filedata()
+    df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
+    
+    trigrams <- df2 %>%
+      select(value) %>%
+      unnest_tokens(ngram, value, token = "ngrams", n = 3) %>%
+      count(ngram, sort = TRUE) %>%
+      ungroup()
+    
+    DT::datatable(trigrams)
+    
+  })
+  
+  output$triplot <- renderPlot({
+    
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+    library(wordcloud)
+    
+    LookForKeyword <- c(input$keyword)
+    
+    df <- filedata()
+    df2 <- tbl_df(df[grep(paste(LookForKeyword, collapse="|"),df)])
+    
+    trigrams_15 <- df2 %>%
+      select(value) %>%
+      unnest_tokens(ngram, value, token = "ngrams", n = 3) %>%
+      count(ngram, sort = TRUE) %>%
+      ungroup() %>%
+      top_n(25)
+    
+    p6 <- ggplot(trigrams_15, aes(x=reorder(ngram, -n), y=n)) +
+      geom_col(show.legend = FALSE) +
+      coord_flip() +
+      ylab("frequency") +
+      xlab("ngram")
+    
+    p6
+    
+  })
   
   
+    
 }
 
 
