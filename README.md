@@ -8,15 +8,17 @@ Google Sheet of 20,000+ [r/politics Reddit posts](https://docs.google.com/spread
 
 CSV of [Trump tweets through Nov. 2016](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumptweets-nov16.csv).
 
-CSV of women running in [House and Senate races 2018](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/women_running.csv)
+CSV of women running in [House and Senate races 2018](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/women_running.csv).
 
 CSV of three months of [Heidi Heitkamp articles](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/Heitkamp-articles-3-months.csv).
+
+CSV of six months of [Lisa Murkowski articles](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/murkowski.csv).
 
 TXT of [Trump campaign speeches](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trumpspeeches.txt).
 
 TXT of [2018 Obama rally in Illinois](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/obama-rally-2018.txt).
 
-TXT of [Trump State of the Union speech](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trump_state_union_2018.txt)
+TXT of [Trump State of the Union speech](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trump_state_union_2018.txt).
 
 # Shiny app for inspecting TXT files
 
