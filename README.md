@@ -10,6 +10,10 @@ CSV of [Trump tweets through Nov. 2016](https://raw.githubusercontent.com/aleszu
 
 CSV of women running in [House and Senate races 2018](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/women_running.csv).
 
+CSV of 1 year of [Washington Post Politics headlines](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/wapo-articles.csv). 
+
+CSV of 1 year of [New York Times Politics headlines](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/nyt-articles.csv).
+
 CSV of three months of [Heidi Heitkamp articles](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/Heitkamp-articles-3-months.csv).
 
 CSV of six months of [Lisa Murkowski articles](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/murkowski.csv).
