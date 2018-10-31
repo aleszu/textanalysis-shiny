@@ -5,6 +5,8 @@ library(tidyverse)
 library(tidytext)
 library(wordcloud)
 library(DT)
+library(plotly)
+library(udpipe)
 
 ui <- fluidPage(
   theme = shinythemes::shinytheme("journal"),  
@@ -27,9 +29,20 @@ ui <- fluidPage(
       tags$div(class="header", checked=NA,
                tags$i("Optional")),
       hr(),
+      textInput("neg", "Change negative color", "red"),
+      textInput("pos", "Change positive color", "blue"),
+      hr(),
+      textInput("filter1", "Remove word from sentiment analysis", ""),
+      tags$div(class="header", checked=NA,
+               tags$i("Optional")),
+      hr(),
       tags$div(class="header", checked=NA,
                tags$p("Some datasets you might be curious to explore."),
                tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/r-politics-three-months.csv", "Three months of r/politics headlines"),
+               tags$br(),
+               tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/wapo-articles.csv", "One year of Washington Post Politics headlines"),
+               tags$br(),
+               tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/nyt-articles.csv", "One year of New York Times Politics headlines"),
                tags$br(),
                tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/Heitkamp-articles-3-months.csv", "Three months of Sen. Heidi Heitkamp articles"),
                tags$br(),         
@@ -57,17 +70,19 @@ ui <- fluidPage(
       
           h4("Sentiment analysis of headlines with smoothing", align = "center"),
           plotOutput("p_smooth"),
-          hr(),
-          h4("Headlines - or keyword - over time", align = "center"),
+          h4("Headlines - or inputted keyword - over time", align = "center"),
           plotOutput("keywordplot"),
-          h4("Top terms", align = "center"),
+          h4("Top words in headlines", align = "center"),
+          plotOutput("textsmooth"),
+          h4("Most positive and negative words in headlines", align = "center"),
+          plotOutput("p_sentC"),
+          h4("Top terms in headlines", align = "center"),
           plotOutput("topterms"),
+          h2("Tables", align = "center"),
           h4("Scores and context of the most positive words", align = "center"),
           DTOutput("tbtop50"),
-          hr(),
           h4("Scores and context of the most negative words", align = "center"),
           DTOutput("tbbot50"),
-          hr(),
           h4("Full dataset", align = "center"),
           DTOutput('tb')
     )
@@ -112,6 +127,7 @@ server <- function(input, output, session) {
       anti_join(stop_words) %>%
       inner_join(labMT, by = "word") %>%
       group_by(word, date, headlines) %>%
+      filter(word != input$filter1) %>%
       summarize(sentiment = mean(happs)) %>%
       arrange(desc(sentiment)) %>%
       mutate("score" = sentiment-5.372 ) 
@@ -155,14 +171,15 @@ server <- function(input, output, session) {
       anti_join(stop_words) %>%
       inner_join(labMT, by = "word") %>%
       group_by(word, date) %>%
+      filter(word != input$filter1) %>%
       summarize(sentiment = mean(happs)) %>%
       arrange(desc(sentiment)) %>%
       mutate("score" = sentiment-5.372 ) 
     tokenizedC
     
-    topsentC <- head(arrange(tokenizedC,desc(score)), n = input$smooth) 
+    topsentC <- head(arrange(tokenizedC,desc(score)), n = 25) 
     topsentC
-    bottomsentC <- head(arrange(tokenizedC,score), n = input$smooth) 
+    bottomsentC <- head(arrange(tokenizedC,score), n = 25) 
     bottomsentC
     
     sentimentC <- rbind(topsentC, bottomsentC)
@@ -170,21 +187,70 @@ server <- function(input, output, session) {
     
     # Sentiment over time of top and bottom words
     
-    p_sentC <- ggplot(sentimentC, aes(x= date, 
+    p_sentC <- ggplot(sentimentC, aes(x= reorder(word, -score), 
                                       y = score, 
                                       fill = score > 0)) + #this is midpoint of labMT sentiment dictionary
       geom_col(show.legend = FALSE) +
+      coord_flip() +
       ylab("sentiment") +
-      xlab("time") + 
+      xlab("word") + 
       scale_y_continuous(limits=c(-4, 4)) +
-      scale_x_date(date_breaks = "1 month") +
-      scale_fill_manual(values=c("red", "blue"))
+      scale_fill_manual(values=c(input$neg,input$pos))
     
     p_sentC
     
   })
   
- 
+  output$textsmooth <- renderPlot({
+    if (is.null(input$file)){
+      return(NULL)      
+    }
+    
+    library(dplyr)
+    library(tidyverse)
+    library(tidytext)
+    
+    df <- filedata()
+    df$date <- as.Date(df$date, format = "%m/%d/%Y")
+    
+    sentiments <- read.csv("https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/labMT2english.csv", sep="\t")
+    labMT <- sentiments %>%
+      select(word, happs)
+    
+    tokenizedC <- df %>%
+      select(date, headline) %>% #input date column 
+      unnest_tokens(word, headline) %>%
+      anti_join(stop_words) %>%
+      inner_join(labMT, by = "word") %>%
+      group_by(word, date) %>%
+      filter(word != input$filter1) %>%
+      summarize(sentiment = mean(happs)) %>%
+      arrange(desc(sentiment)) %>%
+      mutate("score" = sentiment-5.372 ) 
+    
+    # topsentC <- head(arrange(tokenizedC,desc(score)), n = 25) 
+    # topsentC
+    # bottomsentC <- head(arrange(tokenizedC,score), n = 25) 
+    # bottomsentC
+    # 
+    # sentimentC <- rbind(topsentC, bottomsentC)
+    # sentimentC
+    
+    # Sentiment over time of top and bottom words
+    
+    p_textsmooth <- ggplot(tokenizedC, aes(x=date, y=score)) +
+      geom_text(aes(label = word, color=score >0), check_overlap = TRUE, vjust = 2.5) +
+      geom_hline(yintercept = 0, lty = 2) +
+      scale_color_manual(values=c(input$neg,input$pos)) +
+      xlab("date") + 
+      ylab("score") +
+      theme(legend.position = 'none') +
+      geom_smooth() 
+    
+    p_textsmooth
+    
+  })
+
   
     # Searching keyword
   
@@ -202,10 +268,6 @@ server <- function(input, output, session) {
       df$date <- as.Date(df$date, format = "%m/%d/%Y")
       df$headlines <- df$headline
       
-      sentiments <- read.csv("https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/labMT2english.csv", sep="\t")
-      labMT <- sentiments %>%
-        select(word, happs)
-      
       headlines_w_keyword <- df %>%
         select(date, headline, headlines) %>%
         unnest_tokens(word, headline) %>%
@@ -217,6 +279,8 @@ server <- function(input, output, session) {
       p
       
     })
+    
+    
     
     
    # top terms 
@@ -255,6 +319,7 @@ server <- function(input, output, session) {
       
     })
     
+   
   
     # Table 1
     
@@ -289,6 +354,7 @@ server <- function(input, output, session) {
         anti_join(stop_words) %>%
         inner_join(labMT, by = "word") %>%
         group_by(word, date, headlines) %>%
+        filter(word != input$filter1) %>%
         summarize(sentiment = mean(happs)) %>%
         arrange(desc(sentiment)) %>%
         mutate("score" = sentiment-5.372 ) 
