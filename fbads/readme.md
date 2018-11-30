@@ -40,30 +40,66 @@ df %>% glimpse()
 
 ### Search for a politician or keyword
 
-The "stringr" package can be used to detect specific chunks of text. In this case I'm looking for every mention of **Beto** in the "message" column. This won't capture every Beto O'Rourke ad but it *will* capture all that mention his first name.
+The "stringr" package can be used to detect specific chunks of text. In this case I'm looking for every mention of **Beto** in the "message" column. This won't capture every Beto O'Rourke ad but it *will* capture all that mention his first name. I'll do the same with **Cruz**. To 
 
 ```{r}
-betocomments <- df %>%
-  filter(str_detect(message, "Beto")) 
-betocomments %>% glimpse()
+betomentions <- df %>%
+  filter(str_detect(message, "Beto")) %>%
+  mutate("candidate" = "O'Rourke")
+betomentions %>% glimpse()
+
+cruzmentions <- df %>%
+  filter(str_detect(message, "Cruz")) %>%
+  mutate("candidate" = "Cruz")  
+cruzmentions %>% glimpse()
+
+betocruz_mentions <- bind_rows(betomentions, cruzmentions) %>%
+  mutate("Beto" = ifelse(advertiser == "Beto O'Rourke", T, F))
+
+betocruz_mentions %>% glimpse()
+
+ggplot(betocruz_mentions, aes(date, advertiser, text = message, color = Beto)) + 
+  geom_point(aes(size=impressions)) +
+  scale_color_manual(values=c("black", "dodgerblue")) +
+  ggtitle("Beto O'Rourke and Ted Cruz Facebook ads by advertiser over time") +
+  theme(legend.position = 'none')
 ```
 
-### An overview of the Beto Facebook ads
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto1.png)
 
-The summary() function gives us some basic descriptive statistics of each column. Some key stats: 
-
-* There are 1,397 ads with "Beto" in the "message"
-* The "Beto" ads run from Sep 2017 to Nov 2018
-
-By plotting a histogram of the Beto ads, I can get a sense of their distribution across time. Unsurprisingly, the ads seem to be ramping up as the midterm elections approach. 
+This can be made interactive with "plotly."
 
 ```{r}
-# Descriptive statistics
-summary(betocomments)
+allads <- ggplot(betocruz_mentions, aes(date, advertiser, text = message, color = Beto)) + 
+  geom_point(aes(size=impressions)) +
+  scale_color_manual(values=c("black", "dodgerblue")) +
+  ggtitle("Beto O'Rourke and Ted Cruz Facebook ads by advertiser over time") +
+  theme(legend.position = 'none')
 
-# Histogram of Facebook ads by date
-ggplot(betocomments, aes(date)) + geom_histogram(bins = 300)
+ggplotly(allads, tooltip=c("text","impressions"))
 ```
+
+### An overview of official Beto O'Rourke and Ted Cruz Facebook ads
+
+By plotting a histogram of the official ads, I can get a sense of their distribution across time. Unsurprisingly, the ads seem to be ramping up as the midterm elections approach. 
+
+```{r}
+betoads <- df %>%
+  filter(advertiser == "Beto O'Rourke") %>%
+  mutate("candidate" = "O'Rourke")%>% glimpse()
+
+cruzads <- df %>%
+  filter(advertiser == "Ted Cruz") %>%
+  mutate("candidate" = "Cruz") %>% glimpse()
+
+betocruz <- bind_rows(betoads, cruzads) %>% glimpse()
+
+ggplot(betocruz, aes(date, fill = candidate)) + geom_histogram() +
+  scale_fill_manual(values=c("firebrick", "dodgerblue"))  +
+  facet_wrap(~candidate)
+```
+
+![img2](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto2.png)
 
 ### Visualizing waves of political ads over time
 
@@ -75,42 +111,51 @@ betowaves <- ggplot(betocomments, aes(date, advertiser, text = message, impressi
 ggplotly(betowaves, tooltip=c("text","impressions"))
 ```
 
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto5.png)
+
 The "plotly" package allows us to make this plot interactive. Roll over a dot to see the message of individual ads. Some interesting lines:
 
 * "Republicans are DROWNING him in attack ads" from **End Citizens United**.
 * "O'Rourke is TIED in the polls, so we need to make sure EVERY Democrat actually gets out to vote" from **Progressive Turnout Project**. 
 * "Beto is TOO extreme for Texas" from **Ted Cruz**.
 
+
+
 ### Plotting top advertisers 
 
 By counting the "advertiser" column and plotting the results, I can get a sense of who's driving "Beto" ads in this sample. 
 
 ```{r}
-top_advs <- betocomments %>%
+top_advs <- betocruz_mentions %>%
   count(advertiser) %>% 
   arrange(desc(n)) %>%
   top_n(10)
+top_advs
 
+# Plot of top 10 "advertiser"
 ggplot(top_advs, aes(reorder(advertiser, n), n)) + 
   geom_bar(stat="identity") + 
   coord_flip() +
   xlab("advertiser") +
-  ggtitle("Top 10 advertisers associated with Beto O'Rourke Facebook ads")
+  ggtitle("Top 10 advertisers associated with Beto O'Rourke and Ted Cruz Facebook ads") 
 ```
+
+![img6](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto6.png)
+
 
 ### Plotting top words and phrases
 
 Capitalized words like DROWNING, TOO and TIED are pretty interesting. Let's extract the most common uppercase words that are three or more characters long. Notable: PAC, NRA, DESTROY, SAVE, LOSE, HUGE, FLOOD. 
 
 ```{r}
-capitalwords <- betocomments %>%
+capitalwords <- betomentions %>%
   unnest_tokens(word, message, to_lower = FALSE) %>%
   filter(str_detect(word, "\\b[A-Z]{3,}\\b")) %>% 
   count(word) %>%
-  arrange(desc(n)) %>% 
-  glimpse()
+  arrange(desc(n)) 
 
-top_20_capitalwords <- capitalwords %>% top_n(20) 
+capitalwords %>% glimpse()
+top_20_capitalwords <- capitalwords %>% top_n(20)
 
 ggplot(top_20_capitalwords, aes(reorder(word, n), n)) + 
   geom_bar(stat="identity") + 
@@ -118,6 +163,8 @@ ggplot(top_20_capitalwords, aes(reorder(word, n), n)) +
   xlab("") +
   ggtitle("Top capitalized words appearing in Beto O'Rourke Facebook ads")
 ```
+
+![img7](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto7.png)
 
 
 I can also search for and plot the top uni-, bi-, tri- and four-word phrases.  
@@ -180,7 +227,7 @@ ggplot(fourgrams, aes(reorder(ngram, n), n)) +
   ggtitle("Top 20 four-word phrases in Beto O'Rourke Facebook ads")
 ```
 
-
+![img7](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/fbads/img/beto8.png)
 
 ### Sentiment analysis 
 
