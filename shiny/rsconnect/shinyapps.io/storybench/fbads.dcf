@@ -1,0 +1,12 @@
+name: fbads
+title: fbads
+username:
+account: storybench
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 544968
+bundleId: 1742744
+url: https://storybench.shinyapps.io/fbads/
+when: 1544024052.97997
+asMultiple: FALSE
+asStatic: FALSE
