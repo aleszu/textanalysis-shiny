@@ -18,7 +18,9 @@ These prototypes point to the possibility of a broader ecosystem of similar dead
 
 [Click here](https://storybench.shinyapps.io/csvanalysis/) for the CSV Shiny app.
 
-
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/csvanalysis-1.png)
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/csvanalysis-2.png)
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/csvanalysis-3.png)
 
 ## Shiny app for inspecting Facebook political ads
 
