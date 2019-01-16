@@ -15,6 +15,7 @@ These prototypes point to the possibility of a broader ecosystem of similar dead
 ## Shiny app for inspecting TXT files
 
 [Click here](https://storybench.shinyapps.io/textanalysis/) for the **TXT** Shiny app.
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/txtanalysis-1.png)
 
 ## Shiny app for inspecting CSV files
 
