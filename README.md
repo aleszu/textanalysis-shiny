@@ -15,10 +15,13 @@ These prototypes point to the possibility of a broader ecosystem of similar dead
 ### References
 
 [1] “The R Project for Statistical Computing” Retrieved from [https://cran.r-project.org/](https://cran.r-project.org/)
+
 [2] Robinson, D. and Silge, J. 2018. “tidytext: Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools”
 Retrieved from [https://cran.r-project.org/web/packages/tidytext/index.html](https://cran.r-project.org/web/packages/tidytext/index.html)
+
 [3] Ropensci. 2018. “Plotly: an interactive graphing library for R” Retrieved from
 [https://github.com/ropensci/plotly](https://github.com/ropensci/plotly)
+
 [4] Reagan, A. 2018. “labMTsimple Documentation” Retrieved from
 [https://media.readthedocs.org/pdf/labmt-simple/latest/labmt-simple.pdf](https://media.readthedocs.org/pdf/labmt-simple/latest/labmt-simple.pdf)
 
