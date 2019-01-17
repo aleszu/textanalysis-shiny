@@ -12,12 +12,24 @@ We consider the possibilities enabled by our applications by looking at two use 
 
 These prototypes point to the possibility of a broader ecosystem of similar deadline-friendly apps for newsrooms that could provide them with greater analytical power and higher-level insights.
 
-## Shiny app for inspecting TXT files
+### References
+
+[1] “The R Project for Statistical Computing” Retrieved from [https://cran.r-project.org/](https://cran.r-project.org/)
+[2] Robinson, D. and Silge, J. 2018. “tidytext: Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools”
+Retrieved from [https://cran.r-project.org/web/packages/tidytext/index.html](https://cran.r-project.org/web/packages/tidytext/index.html)
+[3] Ropensci. 2018. “Plotly: an interactive graphing library for R” Retrieved from
+[https://github.com/ropensci/plotly](https://github.com/ropensci/plotly)
+[4] Reagan, A. 2018. “labMTsimple Documentation” Retrieved from
+[https://media.readthedocs.org/pdf/labmt-simple/latest/labmt-simple.pdf](https://media.readthedocs.org/pdf/labmt-simple/latest/labmt-simple.pdf)
+
+# Demo the Shiny apps 
+
+### Inspect TXT files
 
 [Click here](https://storybench.shinyapps.io/textanalysis/) for the **TXT** Shiny app.
 ![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/txtanalysis-1.png)
 
-## Shiny app for inspecting CSV files
+### Inspect CSV files
 
 [Click here](https://storybench.shinyapps.io/csvanalysis/) for the **CSV** Shiny app.
 
@@ -25,14 +37,14 @@ These prototypes point to the possibility of a broader ecosystem of similar dead
 ![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/csvanalysis-2.png)
 ![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/csvanalysis-3.png)
 
-## Shiny app for inspecting Facebook political ads
+### Inspect Facebook political ads
 
 [Click here](https://storybench.shinyapps.io/facebook/) for the **Facebook ads** Shiny app.
 
 ![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/fbads-1.png)
 ![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/fbads-2.png)
 
-## Datasets for these Shiny apps
+# Demo datasets for these Shiny apps
 
 Google Sheet of 20,000+ [r/politics Reddit posts](https://docs.google.com/spreadsheets/d/1fYFpJuyR8neCHh8NAkr90n_HSU08bjca6xW531WFMYU/edit?usp=sharing) from 7/21/17 to 10/12/18. 
 
