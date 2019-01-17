@@ -1,0 +1,12 @@
+name: mapmaker
+title: mapmaker
+username:
+account: storybench
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 648288
+bundleId: 1818837
+url: https://storybench.shinyapps.io/mapmaker/
+when: 1547681966.31954
+asMultiple: FALSE
+asStatic: FALSE
