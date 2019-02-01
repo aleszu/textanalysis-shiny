@@ -2,8 +2,6 @@
 
 Aleszu Bajak, John Wihbey, Gibby Free, Paxtyn Merten
 
-*Northeastern University School of Journalism*
-
 While word cloud visualizations and similar types of simple tools are widely available on the web, the more sophisticated textual analysis software and code unfortunately remain the domain of experts and users of languages like R and Python. To address this, we created two prototypes that would allow newsrooms to harness the power of R’s textual and sentiment analysis packages in a simple drag-and-drop format through public-facing R Shiny apps. These two apps show how powerful data wrangling, analysis and visualization functions may be increasingly democratized for time-pressed journalists. We demonstrate use cases through: 1) exploratory analysis of public speeches; 2) exploration of sentiment analysis around large bodies of political advertising, such as the new archive on the Facebook platform; and 3) comparative analysis of one outlet’s coverage on a specific topic as compared to that of the competition.
 
 R is an open-source statistical software environment with a robust community of developers that collaborate and share knowledge, tools and code.1 Newsrooms are increasingly adopting R. Currently, R has statistical and textual analysis packages that allow for rich and generative forms of interpretation. In addition, R Shiny, which deploys code and datasets to a server, is easily customizable and user-friendly; it allows for a text-and-numerical dataset to be dropped in and a set of questions to be asked of it, facilitated by a pre-coded operational workflow.
