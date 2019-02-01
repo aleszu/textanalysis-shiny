@@ -31,7 +31,20 @@ ui <- fluidPage(
        #tags$hr(),
        #uiOutput("lat"),
        #uiOutput("lon"),
-       tags$hr() #,
+     hr(),
+     tags$div(class="header", checked=NA,
+              tags$p("Some datasets you might want to map"),
+              tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/school-shootings-since-2015-wapo.csv", "School shootings since 2015 (The Washington Post)")
+              ),
+     tags$br(),
+     hr(),
+     tags$div(class="header", checked=NA,
+              tags$p("Have a TXT file for sentiment analysis?"),
+              tags$a(href="https://storybench.shinyapps.io/textanalysis/", "Try out my other drag-and-drop app.")),
+     hr(),
+     tags$div(class="header", checked=NA,
+              tags$p("This analysis uses the R package 'tidytext' and the 'labMT' sentiment dictionary from Andy Reagan. Created by Aleszu Bajak."))
+     #,
    #    downloadButton("downloadPlot", "Save PNG")
      ),
      mainPanel(
@@ -63,6 +76,7 @@ server <- function(input, output, session) {
   library(tidyverse)
   library(tidytext)
   library(ggplot2)
+  library(fiftystater)
   
   # shapeinput <- reactive({
   #   switch(input$shape,
