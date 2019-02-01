@@ -1,4 +1,5 @@
-# Newsroom Textual Analysis and Visualization Tools Built With R Shiny
+# Newsroom Textual Analysis and 
+# Visualization Tools Built With R Shiny
 
 Aleszu Bajak, John Wihbey, Gibby Free, Paxtyn Merten
 
@@ -70,6 +71,14 @@ TXT of [2018 Obama rally in Illinois](https://raw.githubusercontent.com/aleszu/t
 TXT of [Trump State of the Union speech](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/trump_state_union_2018.txt).
 
 ProPublica's [database of Facebook political ads](https://projects.propublica.org/facebook-ads/). And find the [full dataset here](https://www.propublica.org/datastore/dataset/political-advertisements-from-facebook). 
+
+# Bonus apps
+
+### Storybench mapmaker
+
+[Click here](https://storybench.shinyapps.io/mapmaker/) for the **mapmaker** Shiny app.
+
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/fbads-1.png)
 
 
 
