@@ -78,7 +78,7 @@ ProPublica's [database of Facebook political ads](https://projects.propublica.or
 
 [Click here](https://storybench.shinyapps.io/mapmaker/) for the **mapmaker** Shiny app.
 
-![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/shiny/fbads-1.png)
+![img](https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/mapmaker/mapmaker.png)
 
 
 
