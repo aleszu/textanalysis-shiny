@@ -2,7 +2,7 @@ library(shiny)
 
 ui <- fluidPage(
    
-   titlePanel("Drag-and-drop mapmaker"),
+   titlePanel("Storybench’s drag-and-drop mapmaker"),
    
    sidebarLayout(
     
@@ -16,39 +16,40 @@ ui <- fluidPage(
        ),
        h6("*Make sure your CSV contains columns named 'lat' and 'lon' and a numerical column to size the dots", align = "left"),
        tags$hr(),
-      # uiOutput("color"),
       textAreaInput("title", "Map title"), 
+      numericInput("titlesize", "Title font size:", value = 19, min = 12, max = 50),  
+      textAreaInput("family", "Choose font family name", "Arial"),  
+      hr(),
       textAreaInput("color", "Choose dot color using hex code", "#1e90ff"),
       radioButtons("radio", label = h5("Choose dot shape"), 
                   choices = list("Circle" = 1, "Square" = 0, "Triangle" = 2, "Filled circle" = 16, "Filled square" = 15,"Filled triangle" = 17),
                   selected = 16),
-      # selectInput("color", "Choose dot color using hex code", #choices = c("black","gray30","wheat","firebrick","darkgreen","dodgerblue","lightpink")),
-     #  tags$hr(),
        uiOutput("column"),
        numericInput("low", "A minimum dot size:", value = 1, min = 0, max = 5),  
        numericInput("high", "A maximum dot size:", value = 15, min = 5, max = 30),  
      textAreaInput("legend", "Legend title"),
-       #tags$hr(),
-       #uiOutput("lat"),
-       #uiOutput("lon"),
+     numericInput("legendsize", "Title font size:", value = 12, min = 12, max = 50),
      hr(),
      tags$div(class="header", checked=NA,
               tags$p("Some datasets you might want to map"),
-              tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/school-shootings-since-2015-wapo.csv", "School shootings since 2015 (The Washington Post)")
+              tags$a(href="https://raw.githubusercontent.com/aleszu/textanalysis-shiny/master/school-shootings-since-2015-wapo.csv", "School shootings since 2015 (Washington Post)")
               ),
      tags$br(),
      hr(),
      tags$div(class="header", checked=NA,
               tags$p("Have a TXT file for sentiment analysis?"),
-              tags$a(href="https://storybench.shinyapps.io/textanalysis/", "Try out my other drag-and-drop app.")),
+              tags$a(href="https://storybench.shinyapps.io/textanalysis/", "Try the Storybench drag-and-drop TXT app.")),
      hr(),
      tags$div(class="header", checked=NA,
-              tags$p("This analysis uses the R package 'tidytext' and the 'labMT' sentiment dictionary from Andy Reagan. Created by Aleszu Bajak."))
+              tags$p("Have a CSV file for sentiment analysis?"),
+              tags$a(href="https://storybench.shinyapps.io/csvanalysis/", "Try the Storybench drag-and-drop CSV app.")),
+     hr(),
+     tags$div(class="header", checked=NA,
+              tags$p("This analysis uses the R package 'fiftystater' and does not correctly transpose point data from Alaska or Hawaii. Yet. Created by Aleszu Bajak at Northeastern University's School of Journalism."))
      #,
    #    downloadButton("downloadPlot", "Save PNG")
      ),
      mainPanel(
-      # h4("My map", align = "left"),
        plotOutput("stateMap"),
        
        h4("My data", align = "left"),
@@ -59,7 +60,6 @@ ui <- fluidPage(
    )
 )
 
-# Define server logic required to draw a histogram
 server <- function(input, output, session) {
   
   filedata <- reactive({
@@ -74,7 +74,6 @@ server <- function(input, output, session) {
   
   library(dplyr)
   library(tidyverse)
-  library(tidytext)
   library(ggplot2)
   library(fiftystater)
   
@@ -141,29 +140,6 @@ server <- function(input, output, session) {
     return(df)
   })
   
-  # construct a plot to show the data
-
-  
-  # output$stateMap <- renderPlot({
-  #   df <- filedata()
-  #   
-  #   # p1 <- ggplot() + geom_polygon(data=fifty_states, aes(x=long, y=lat, group = group),color="white", fill= "grey92") +
-  #   #   geom_point(data = df, aes_string(x=input$longitude, y=input$latitude, size=input$bubble), inherit.aes = FALSE) +
-  #   #   scale_size(name="", range = c(2, 15)) +
-  #   #   guides(size=guide_legend(input$legend)) +
-  #   #   theme_void() +
-  #   #   theme(aspect.ratio=1.77/3)
-  #   # p1
-  #   
-  #   p2 <- ggplot() + geom_polygon(data=fifty_states, aes(x=long, y=lat, group = group),color="white", fill= "grey92") +
-  #     geom_point(data = df, aes_string(x=df$lon, y=df$lat, size=input$bubble, color=input$color), inherit.aes = FALSE) +
-  #     scale_size(name="", range = c(2, 15)) +
-  #     guides(size=guide_legend(input$legend)) +
-  #     theme_void() +
-  #     theme(aspect.ratio=1.62/3)
-  #   p2
-  
-  
   
   output$stateMap <- renderPlot({
   
@@ -173,10 +149,13 @@ server <- function(input, output, session) {
   p3 <- ggplot() + geom_polygon(data=fifty_states, aes(x=long, y=lat, group = group),color="white", fill= "grey92") +
     geom_point(data = df, aes_string(x=df$lon, y=df$lat, size=input$bubble), color = input$color, shape = as.numeric(input$radio)) +
     scale_size(name="", range = c(input$low, input$high)) +
-    ggtitle(input$title) +
+    ggtitle(input$title) + 
     guides(size=guide_legend(input$legend)) +
     theme_void() +
-    theme(aspect.ratio=1.62/3)
+    theme(aspect.ratio=1.62/3, 
+          plot.title = element_text(size = input$titlesize),
+          legend.title=element_text(size= input$legendsize),
+          text=element_text(family=input$family))
   p3
 
   })
